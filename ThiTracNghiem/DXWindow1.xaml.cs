@@ -28,7 +28,9 @@ namespace ThiTracNghiem
         private void ThemedWindow_Loaded(object sender, RoutedEventArgs e)
         {
             CauHoi a = new CauHoi();
-            grid1.Children.Add(a);
+            stackpanel.Children.Add(new CauHoi());
+            stackpanel.Children.Add(new CauHoi());
+            stackpanel.Children.Add(new CauHoi());
         }
 
       

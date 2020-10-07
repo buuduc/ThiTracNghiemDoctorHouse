@@ -30,7 +30,10 @@ namespace ThiTracNghiem
             QuestionData a = new QuestionData();
             var b =a.TakeQuestion(12);
             NoiDungText.Text = b.Content;
-            
+            Atext.Content = b.A;
+            Btext.Content = b.B;
+            Ctext.Content = b.C;
+            Dtext.Content = b.D;
         }
     }
 }
