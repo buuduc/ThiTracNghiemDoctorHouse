@@ -30,7 +30,7 @@ namespace ThiTracNghiem
                 B = ((ThiTracNghiem.VanPhongDataSet.DatabaseRow)data).TraLoi2,
                 C = ((ThiTracNghiem.VanPhongDataSet.DatabaseRow)data).TraLoi3,
                 D = ((ThiTracNghiem.VanPhongDataSet.DatabaseRow)data).TraLoi4,
-                trueQuestion = ((ThiTracNghiem.VanPhongDataSet.DatabaseRow)data).DapAnDung
+                trueQuestion = Convert.ToInt32(((ThiTracNghiem.VanPhongDataSet.DatabaseRow)data).DapAnDung)
 
             };
             

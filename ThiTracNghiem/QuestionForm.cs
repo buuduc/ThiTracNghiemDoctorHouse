@@ -14,8 +14,8 @@ namespace ThiTracNghiem
         public string B;
         public string C;
         public string D;
-        public string trueQuestion;
-        public bool CheckQuestion(string question)
+        public int trueQuestion;
+        public bool CheckQuestion(int question)
         {
             return question == trueQuestion ? true : false;
         }

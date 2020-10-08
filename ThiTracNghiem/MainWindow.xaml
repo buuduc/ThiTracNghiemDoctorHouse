@@ -3,7 +3,7 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
-    Title="MainWindow" Height="255" Width="394">
+    Title="THÔNG TIN NGƯỜI DỰ THI" Height="255" Width="394">
     <Grid>
         <Label Content="Họ Tên:" HorizontalAlignment="Left" Margin="44,70,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.2,3.773"/>
         <Label Content="Mã số" HorizontalAlignment="Left" Margin="44,110,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.2,3.773"/>

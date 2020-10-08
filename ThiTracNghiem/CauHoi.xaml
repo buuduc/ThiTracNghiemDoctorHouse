@@ -5,18 +5,22 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ThiTracNghiem"
              mc:Ignorable="d" 
+             Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
              d:DesignHeight="450" d:DesignWidth="800" Loaded="UserControl_Loaded">
-    <StackPanel x:Name="stackPanel" Height="Auto" VerticalAlignment="Top" Width="784" Background="#FFB7BF00">
+    <StackPanel x:Name="stackPanel" Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="#FFB7BF00">
         <TextBlock x:Name="NoiDungText" 
                    TextWrapping="Wrap" 
                    Text="sasdddddddddddddddddddddddddddddddddddddddddddddddddddddddd"   
                    Width="{Binding ElementName=*ParentElement*, Path=ActualWidth}"
                    Height="Auto"
                    FontSize="30"/>
-        <RadioButton x:Name="Atext" Content="A" Height="35" FontSize="20" Margin="10,0,27,0"/>
-        <RadioButton x:Name="Btext" Content="B" Height="33" FontSize="20" Margin="10,0,27,0"/>
-        <RadioButton x:Name="Ctext" Content="C" Height="33" FontSize="20" Margin="10,0,27,0"/>
-        <RadioButton x:Name="Dtext" Content="D" Height="33" FontSize="20" Margin="10,0,27,0"/>
+        <StackPanel x:Name="AnswerPanel" Height="Auto">
+            <RadioButton x:Name="Atext"  Content="A" Height="auto" FontSize="20" Margin="10,0,27,0"/>
+            <RadioButton x:Name="Btext"  Content="B" Height="auto" FontSize="20" Margin="10,0,27,0"/>
+            <RadioButton x:Name="Ctext"  Content="C" Height="auto" FontSize="20" Margin="10,0,27,0"/>
+            <RadioButton x:Name="Dtext"  Height="auto" FontSize="20" Margin="10,0,27,0" Content="D"/>
+
+        </StackPanel>
     </StackPanel>
 
 </UserControl>

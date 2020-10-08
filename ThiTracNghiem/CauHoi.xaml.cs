@@ -26,9 +26,11 @@ namespace ThiTracNghiem
             InitializeComponent();
             this.index = index;
         }
-
+        private int truequestion;
+        private System.Collections.SortedList ListAnswer;
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
+            
             QuestionData a = new QuestionData();
             var b =a.TakeQuestion(index);
             NoiDungText.Text = b.Content;
@@ -36,12 +38,22 @@ namespace ThiTracNghiem
             Btext.Content = "B. " + b.B;
             Ctext.Content = "C. " + b.C;
             Dtext.Content = "D. " + b.D;
+            truequestion = b.trueQuestion;
         }
         public bool Check()
         {
-            foreach (RadioButton item in stackPanel.Controls)
+            int index = 0;
+            foreach (RadioButton item in AnswerPanel.Children)
             {
+                index++;
+                if (item.IsChecked == true)
+                {
+                    if (index == truequestion)
+                    {
+                        return true;
+                    }
 
+                }
             }
             return false;
         }

@@ -37,6 +37,18 @@ namespace ThiTracNghiem
             }
         }
 
-      
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            int diem = 0;
+            foreach (CauHoi item in listQuestion.Values)
+            {
+                if (item.Check())
+                {
+                    diem += 1;
+                }
+                
+            }
+            MessageBox.Show(diem.ToString());
+        }
     }
 }
