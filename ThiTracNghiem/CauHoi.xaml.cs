@@ -20,20 +20,30 @@ namespace ThiTracNghiem
     /// </summary>
     public partial class CauHoi : UserControl
     {
-        public CauHoi()
+        int index;
+        public CauHoi(int index)
         {
             InitializeComponent();
+            this.index = index;
         }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
             QuestionData a = new QuestionData();
-            var b =a.TakeQuestion(12);
+            var b =a.TakeQuestion(index);
             NoiDungText.Text = b.Content;
-            Atext.Content = b.A;
-            Btext.Content = b.B;
-            Ctext.Content = b.C;
-            Dtext.Content = b.D;
+            Atext.Content = "A. "+  b.A;
+            Btext.Content = "B. " + b.B;
+            Ctext.Content = "C. " + b.C;
+            Dtext.Content = "D. " + b.D;
+        }
+        public bool Check()
+        {
+            foreach (RadioButton item in stackPanel.Controls)
+            {
+
+            }
+            return false;
         }
     }
 }

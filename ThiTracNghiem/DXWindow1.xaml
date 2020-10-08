@@ -13,10 +13,18 @@
         <local:VanPhongDataSet x:Key="vanPhongDataSet"/>
         <CollectionViewSource x:Key="databaseViewSource" Source="{Binding Database, Source={StaticResource vanPhongDataSet}}"/>
     </dx:ThemedWindow.Resources>
-    <Grid x:Name="grid1" Margin="0,0,224,108"  >
-        <StackPanel x:Name="stackpanel">
-            
-        </StackPanel>
-        
+
+    <Grid x:Name="grid1" Margin="0,0,224,-1"  >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180*"/>
+            <ColumnDefinition Width="211*"/>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer Margin="0,10,0,0" Grid.ColumnSpan="2" HorizontalAlignment="Left" Width="782">
+            <StackPanel x:Name="stackpanel">
+
+            </StackPanel>
+        </ScrollViewer>
+
     </Grid>
+
 </dx:ThemedWindow>

@@ -24,13 +24,17 @@ namespace ThiTracNghiem
         {
             InitializeComponent();
         }
-
+        System.Collections.SortedList listQuestion;
         private void ThemedWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            CauHoi a = new CauHoi();
-            stackpanel.Children.Add(new CauHoi());
-            stackpanel.Children.Add(new CauHoi());
-            stackpanel.Children.Add(new CauHoi());
+            listQuestion = new System.Collections.SortedList();
+            //CauHoi a = new CauHoi();
+            for (int i = 1; i <=30; i++)
+            {
+                CauHoi control = new CauHoi(i);
+                listQuestion.Add(i, control);
+                stackpanel.Children.Add(control);
+            }
         }
 
       
