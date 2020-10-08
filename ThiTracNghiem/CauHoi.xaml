@@ -7,18 +7,18 @@
              mc:Ignorable="d" 
              Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
              d:DesignHeight="450" d:DesignWidth="800" Loaded="UserControl_Loaded">
-    <StackPanel x:Name="stackPanel" Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="#FFB7BF00">
+    <StackPanel x:Name="stackPanel" Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="#FFEBEEE1">
         <TextBlock x:Name="NoiDungText" 
                    TextWrapping="Wrap" 
                    Text="sasdddddddddddddddddddddddddddddddddddddddddddddddddddddddd"   
-                   Width="{Binding ElementName=*ParentElement*, Path=ActualWidth}"
-                   Height="Auto"
+                   Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                   
                    FontSize="30"/>
         <StackPanel x:Name="AnswerPanel" Height="Auto">
-            <RadioButton x:Name="Atext"  Content="A" Height="auto" FontSize="20" Margin="10,0,27,0"/>
-            <RadioButton x:Name="Btext"  Content="B" Height="auto" FontSize="20" Margin="10,0,27,0"/>
-            <RadioButton x:Name="Ctext"  Content="C" Height="auto" FontSize="20" Margin="10,0,27,0"/>
-            <RadioButton x:Name="Dtext"  Height="auto" FontSize="20" Margin="10,0,27,0" Content="D"/>
+            <RadioButton x:Name="Atext"  Content="A" Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="20" Margin="10,0,27,0"/>
+            <RadioButton x:Name="Btext"  Content="B" Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="20" Margin="10,0,27,0"/>
+            <RadioButton x:Name="Ctext"  Content="C" Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="20" Margin="10,0,27,0"/>
+            <RadioButton x:Name="Dtext"  Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="20" Margin="10,0,27,0" Content="D"/>
 
         </StackPanel>
     </StackPanel>

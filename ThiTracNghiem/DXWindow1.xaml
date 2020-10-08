@@ -6,30 +6,25 @@
     xmlns:dxsps="http://schemas.devexpress.com/winfx/2008/xaml/spreadsheet"
     xmlns:dxrud="http://schemas.devexpress.com/winfx/2008/xaml/reports/userdesigner"
     x:Class="ThiTracNghiem.DXWindow1"
-    Title="DXWindow1" Height="489" Width="1006"
+    Title="BÀI THI" Height="auto" Width="auto"
     Loaded="ThemedWindow_Loaded"
     >
-    <dx:ThemedWindow.Resources>
-        <local:VanPhongDataSet x:Key="vanPhongDataSet"/>
-        <CollectionViewSource x:Key="databaseViewSource" Source="{Binding Database, Source={StaticResource vanPhongDataSet}}"/>
-    </dx:ThemedWindow.Resources>
+    <DockPanel x:Name="grid1"  Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="#FFDA4242"  >
 
-    <DockPanel x:Name="grid1" Margin="0,0,2,-1" Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="#FFDA4242"  >
-
-        <ScrollViewer Width="654" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+        <ScrollViewer Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Left" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
             <StackPanel x:Name="stackpanel"
                         HorizontalAlignment="Stretch"  
-                        Width="982" 
+                        Width="auto" 
                         Height="auto" 
                         VerticalAlignment="Stretch">
             </StackPanel>
-           
+
         </ScrollViewer>
-        <Grid Background="#FF898D88" Width="351">
-            <Button Content="Nộp Bài" HorizontalAlignment="Left" Margin="216,26,0,0" VerticalAlignment="Top" Width="100" Height="45" Click="Button_Click"/>
+        <Grid Background="#FF898D88" Width="231" HorizontalAlignment="Right"  VerticalAlignment="Stretch">
+            <Button Content="Nộp Bài" HorizontalAlignment="Left" Margin="67,373,0,0" VerticalAlignment="Top" Width="117" Height="53" Click="Button_Click"/>
 
         </Grid>
-        
+
 
     </DockPanel>
 

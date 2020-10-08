@@ -31,7 +31,7 @@ namespace ThiTracNghiem
             //CauHoi a = new CauHoi();
             for (int i = 1; i <=30; i++)
             {
-                CauHoi control = new CauHoi(i);
+                CauHoi control = new CauHoi(i,i);
                 listQuestion.Add(i, control);
                 stackpanel.Children.Add(control);
             }

@@ -21,10 +21,12 @@ namespace ThiTracNghiem
     public partial class CauHoi : UserControl
     {
         int index;
-        public CauHoi(int index)
+        int stt;
+        public CauHoi(int index, int stt)
         {
             InitializeComponent();
             this.index = index;
+            this.stt = stt;
         }
         private int truequestion;
         private System.Collections.SortedList ListAnswer;
@@ -33,7 +35,7 @@ namespace ThiTracNghiem
             
             QuestionData a = new QuestionData();
             var b =a.TakeQuestion(index);
-            NoiDungText.Text = b.Content;
+            NoiDungText.Text ="Câu "+stt.ToString()+": "+ b.Content;
             Atext.Content = "A. "+  b.A;
             Btext.Content = "B. " + b.B;
             Ctext.Content = "C. " + b.C;

@@ -31,5 +31,14 @@ namespace ThiTracNghiem
             dXWindow1.Show();
             this.Close();
         }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            CheckBox check = sender as CheckBox;
+            if (check.IsChecked == true)
+            {
+
+            }
+        }
     }
 }

@@ -190,6 +190,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Screenshot 2020-10-09 003109.png" />
+    <Resource Include="Screenshot 2020-10-09 003241.png" />
+    <Resource Include="Screenshot 2020-10-09 003429.png" />
     <Content Include="VanPhong.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
