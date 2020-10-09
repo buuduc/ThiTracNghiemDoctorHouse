@@ -1,31 +1,30 @@
-﻿<dx:ThemedWindow
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
-    xmlns:local="clr-namespace:ThiTracNghiem"
-    xmlns:dxsps="http://schemas.devexpress.com/winfx/2008/xaml/spreadsheet"
-    xmlns:dxrud="http://schemas.devexpress.com/winfx/2008/xaml/reports/userdesigner"
-    x:Class="ThiTracNghiem.DXWindow1"
-    Title="BÀI THI" Height="auto" Width="auto"
-    Loaded="ThemedWindow_Loaded"
+﻿<Window 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" 
+    xmlns:local="clr-namespace:ThiTracNghiem" 
+    xmlns:dxsps="http://schemas.devexpress.com/winfx/2008/xaml/spreadsheet" 
+    xmlns:dxrud="http://schemas.devexpress.com/winfx/2008/xaml/reports/userdesigner" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" xmlns:dxsch="http://schemas.devexpress.com/winfx/2008/xaml/scheduling" x:Class="ThiTracNghiem.DXWindow1" Title="BÀI THI" Height="790.6" Width="1501" Loaded="ThemedWindow_Loaded" 
     >
-    <DockPanel x:Name="grid1"  Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="#FFDA4242"  >
+    <DockPanel  x:Name="grid1" Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Left" Background="#FFDA4242">
 
-        <ScrollViewer Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Left" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-            <StackPanel x:Name="stackpanel"
-                        HorizontalAlignment="Stretch"  
-                        Width="auto" 
-                        Height="auto" 
-                        VerticalAlignment="Stretch">
-            </StackPanel>
+        <ScrollViewer Height="auto" Width="1200" VerticalAlignment="Stretch"  Background="#FF72DA42" VerticalScrollBarVisibility="Auto" >
+            <StackPanel x:Name="stackpanel" HorizontalAlignment="Stretch" Width="auto" Height="auto" VerticalAlignment="Stretch"/>
 
         </ScrollViewer>
-        <Grid Background="#FF898D88" Width="231" HorizontalAlignment="Right"  VerticalAlignment="Stretch">
-            <Button Content="Nộp Bài" HorizontalAlignment="Left" Margin="67,373,0,0" VerticalAlignment="Top" Width="117" Height="53" Click="Button_Click"/>
+        <Grid Background="#FF898D88"  HorizontalAlignment="Right" Width="300" VerticalAlignment="Stretch" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="389*"/>
+                <RowDefinition Height="419*"/>
+            </Grid.RowDefinitions>
+            <Button Content="Nộp Bài" HorizontalAlignment="Stretch"  Click="Button_Click" Margin="68,208,64,119" />
+            <Label x:Name="TimeLabel" Content="Bộ đếm giờ" FontSize="20" HorizontalAlignment="Left" Margin="68,341,0,0" VerticalAlignment="Top" Height="46" Width="200" Background="#FFBB5F5F" Grid.RowSpan="2"/>
+            <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="290,197,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+
 
         </Grid>
 
 
     </DockPanel>
 
-</dx:ThemedWindow>
+</Window>

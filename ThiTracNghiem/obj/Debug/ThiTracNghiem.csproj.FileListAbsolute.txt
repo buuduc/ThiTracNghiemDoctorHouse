@@ -48,7 +48,6 @@ E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\D
 E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.pdb
 E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\VanPhong.accdb
 E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem_Content.g.cs
-E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\GeneratedInternalTypeHelper.g.cs
 E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem_MarkupCompile.lref
 E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Charts.v20.1.Core.dll
 E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.CodeParser.v20.1.dll
@@ -214,3 +213,16 @@ E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\D
 E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\CauHoi.g.cs
 E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\CauHoi.baml
 E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.exe.licenses
+E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Themes.DXStyle.v20.1.dll
+E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Scheduling.v20.1.dll
+E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraScheduler.v20.1.Core.dll
+E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Scheduling.v20.1.xml
+E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraScheduler.v20.1.Core.xml
+E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Scheduling.v20.1.resources.dll
+E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Scheduling.v20.1.resources.dll
+E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Scheduling.v20.1.resources.dll
+E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Scheduling.v20.1.resources.dll
+E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.XtraScheduler.v20.1.Core.resources.dll

@@ -22,19 +22,21 @@ namespace ThiTracNghiem
     {
         int index;
         int stt;
-        public CauHoi(int index, int stt)
+        QuestionData questiondata;
+        internal CauHoi(int index, int stt, QuestionData questiondata)
         {
             InitializeComponent();
             this.index = index;
             this.stt = stt;
+            this.questiondata = questiondata;
         }
         private int truequestion;
         private System.Collections.SortedList ListAnswer;
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
             
-            QuestionData a = new QuestionData();
-            var b =a.TakeQuestion(index);
+            
+            var b =questiondata.TakeQuestion(index);
             NoiDungText.Text ="Câu "+stt.ToString()+": "+ b.Content;
             Atext.Content = "A. "+  b.A;
             Btext.Content = "B. " + b.B;

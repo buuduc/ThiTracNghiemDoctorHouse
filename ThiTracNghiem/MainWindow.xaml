@@ -4,7 +4,7 @@
     xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
     xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" 
     x:Class="ThiTracNghiem.MainWindow"
-    Title="THÔNG TIN NGƯỜI DỰ THI" Height="255" Width="400">
+    Title="THÔNG TIN NGƯỜI DỰ THI" Height="255" Width="400" ResizeMode="NoResize">
     <Grid Background="White">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="197*"/>
@@ -17,10 +17,10 @@
         <TextBox x:Name="MaSoLabel" HorizontalAlignment="Left" Height="23" Margin="57,81,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="ViTriLabel" HorizontalAlignment="Left" Height="23" Margin="57,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Button Content="LÀM BÀI NGAY" HorizontalAlignment="Left" Margin="37,178,0,0" VerticalAlignment="Top" Width="121" Click="Button_Click" Height="26" Background="#FFF7F1F1" FontWeight="Bold"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="63,18,0,0" TextWrapping="Wrap" Text="30" VerticalAlignment="Top" Width="50" Grid.Column="1"/>
-        <Label Content="Số câu:" Margin="5,23,138,0" VerticalAlignment="Top" RenderTransformOrigin="0.2,3.773" Grid.Column="1"/>
-        <TextBox Height="23" Margin="63,48,79,0" TextWrapping="Wrap" Text="30" VerticalAlignment="Top" Grid.Column="1"/>
-        <Label Content="Thời gian:" Margin="4,48,134,0" VerticalAlignment="Top" RenderTransformOrigin="0.2,3.773" Grid.Column="1"/>
+        <TextBox x:Name="SoCauLabel" HorizontalAlignment="Left" Height="23" Margin="63,23,0,0" TextWrapping="Wrap" Text="30" VerticalAlignment="Top" Width="50" Grid.Column="1"/>
+        <Label x:Name="lb1" Content="Thời gian:" Margin="10,48,129,0" VerticalAlignment="Top" RenderTransformOrigin="0.2,3.773" Grid.Column="1"/>
+        <TextBox x:Name="ThoiGianLabel" Height="23" Margin="64,48,78,0" TextWrapping="Wrap" Text="30" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label Content="Số Câu:" Margin="9,21,129,0" VerticalAlignment="Top" RenderTransformOrigin="0.2,3.773" Grid.Column="1"/>
         <Image Grid.Column="1" Margin="15,196,26,0" Source="Screenshot 2020-10-09 003109.png" Stretch="Fill"/>
         <Image Margin="10,109,20,60" Source="Screenshot 2020-10-09 003241.png" Stretch="Fill" Grid.Column="1"/>
         <Image Margin="15,158,43,22" Source="Screenshot 2020-10-09 003429.png" Stretch="Fill" Grid.Column="1"/>
@@ -30,9 +30,9 @@
                 X2="195" Y2="250"
                 Stroke="Black"
                 StrokeThickness="1" Margin="0,0,0,-7" />
-        <Label Content="phút" Margin="118,48,20,0" VerticalAlignment="Top" RenderTransformOrigin="0.2,3.773" Grid.Column="1"/>
-        <Label Content="câu" Margin="118,21,20,0" VerticalAlignment="Top" RenderTransformOrigin="0.2,3.773" Grid.Column="1"/>
-        <CheckBox x:Name="checkbox" Content="Tính thời gian làm bài" Grid.Column="1" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <Label x:Name="lb3" Content="phút" Margin="118,48,20,0" VerticalAlignment="Top" RenderTransformOrigin="0.2,3.773" Grid.Column="1"/>
+        <Label x:Name="lb2" Content="câu" Margin="118,21,20,0" VerticalAlignment="Top" RenderTransformOrigin="0.2,3.773" Grid.Column="1"/>
+        <CheckBox x:Name="checkbox" Content="Tính thời gian làm bài" Grid.Column="1" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top"  Checked="CheckBoxChanged" Unchecked="CheckBoxChanged" IsChecked="True"/>
         
 
 

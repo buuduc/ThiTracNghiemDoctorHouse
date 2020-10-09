@@ -27,18 +27,32 @@ namespace ThiTracNghiem
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            Person person = new Person()
+            {
+                name = HoTenLabel.Text,
+                MaSo = MaSoLabel.Text,
+                ViTri=ViTriLabel.Text,
+                SoCauHoi=Convert.ToInt32(SoCauLabel.Text)
+            };
+            if (checkbox.IsChecked==true)
+            {
+                person.ThoiGian = Convert.ToInt32(ThoiGianLabel.Text);
+            }
+           
             DXWindow1 dXWindow1 = new DXWindow1();
+            dXWindow1.ps = person;
             dXWindow1.Show();
             this.Close();
         }
 
-        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        private void CheckBoxChanged(object sender, RoutedEventArgs e)
         {
-            CheckBox check = sender as CheckBox;
-            if (check.IsChecked == true)
-            {
+           
+            
+                lb1.IsEnabled = !lb1.IsEnabled;
+                ThoiGianLabel.IsEnabled = !ThoiGianLabel.IsEnabled;
+                lb3.IsEnabled = !lb3.IsEnabled;
 
-            }
         }
     }
 }

@@ -10,6 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 using DevExpress.Xpf.Core;
 
 
@@ -18,23 +19,46 @@ namespace ThiTracNghiem
     /// <summary>
     /// Interaction logic for DXWindow1.xaml
     /// </summary>
-    public partial class DXWindow1 : ThemedWindow
+    public partial class DXWindow1 : System.Windows.Window
     {
+        internal Person ps;
+        private int Time;
+        private System.Collections.SortedList listQuestion;
         public DXWindow1()
         {
             InitializeComponent();
         }
-        System.Collections.SortedList listQuestion;
+        
+        
         private void ThemedWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            listQuestion = new System.Collections.SortedList();
-            //CauHoi a = new CauHoi();
-            for (int i = 1; i <=30; i++)
+            ps.NapData();
+            listQuestion = ps.listQuestion;
+            foreach (CauHoi item in listQuestion.Values)
             {
-                CauHoi control = new CauHoi(i,i);
-                listQuestion.Add(i, control);
-                stackpanel.Children.Add(control);
+                
+                stackpanel.Children.Add(item);
             }
+            TimeCooldown();
+        }
+        void TimeCooldown()
+        {
+            if (ps.ThoiGian != 0)
+            {
+                Time = ps.ThoiGian * 60;
+                var timer = new DispatcherTimer();
+                timer.Interval = TimeSpan.FromSeconds(1);
+                timer.Tick += timer_Tick;
+                timer.Start();
+
+            }
+            else
+                TimeLabel.Content = "Không đếm giờ";
+        }
+        void timer_Tick(object sender, EventArgs e)
+        {
+            Time--;
+            TimeLabel.Content = string.Format("{0}:{1}", Time / 60, Time % 60);
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -48,7 +72,7 @@ namespace ThiTracNghiem
                 }
                 
             }
-            MessageBox.Show(diem.ToString());
+            MessageBox.Show(diem.ToString("c"));
         }
     }
 }

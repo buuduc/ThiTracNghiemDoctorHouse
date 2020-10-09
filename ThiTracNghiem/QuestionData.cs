@@ -8,13 +8,13 @@ namespace ThiTracNghiem
 {
     class QuestionData
     {
-        ThiTracNghiem.VanPhongDataSet vanPhongDataSet;
-        public QuestionData()
+        private ThiTracNghiem.VanPhongDataSet dataSet;
+        public QuestionData(ThiTracNghiem.VanPhongDataSet dataSet)
         {
-
-            vanPhongDataSet = new ThiTracNghiem.VanPhongDataSet();
-            ThiTracNghiem.VanPhongDataSetTableAdapters.DatabaseTableAdapter vanPhongDataSetDatabaseTableAdapter = new ThiTracNghiem.VanPhongDataSetTableAdapters.DatabaseTableAdapter();
-            vanPhongDataSetDatabaseTableAdapter.Fill(vanPhongDataSet.Database);
+            this.dataSet = dataSet;
+            //vanPhongDataSet = new ThiTracNghiem.VanPhongDataSet();
+            //ThiTracNghiem.VanPhongDataSetTableAdapters.DatabaseTableAdapter vanPhongDataSetDatabaseTableAdapter = new ThiTracNghiem.VanPhongDataSetTableAdapters.DatabaseTableAdapter();
+            //vanPhongDataSetDatabaseTableAdapter.Fill(vanPhongDataSet.Database);
             
 
 
@@ -22,7 +22,7 @@ namespace ThiTracNghiem
         }
         public QuestionForm TakeQuestion(int ID)
         {
-            var data = vanPhongDataSet.Database.Rows.Find(ID);
+            var data = dataSet.Database.Rows.Find(ID);
             QuestionForm question = new QuestionForm()
             {
                 Content = ((ThiTracNghiem.VanPhongDataSet.DatabaseRow)data).NoiDung,
