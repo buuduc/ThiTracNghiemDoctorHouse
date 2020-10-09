@@ -4,22 +4,44 @@
     xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" 
     xmlns:local="clr-namespace:ThiTracNghiem" 
     xmlns:dxsps="http://schemas.devexpress.com/winfx/2008/xaml/spreadsheet" 
-    xmlns:dxrud="http://schemas.devexpress.com/winfx/2008/xaml/reports/userdesigner" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" xmlns:dxsch="http://schemas.devexpress.com/winfx/2008/xaml/scheduling" x:Class="ThiTracNghiem.DXWindow1" Title="BÀI THI" Height="790.6" Width="1501" Loaded="ThemedWindow_Loaded" 
+    xmlns:dxrud="http://schemas.devexpress.com/winfx/2008/xaml/reports/userdesigner" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" xmlns:dxsch="http://schemas.devexpress.com/winfx/2008/xaml/scheduling" x:Class="ThiTracNghiem.DXWindow1" Title="BÀI THI" Height="790.6" Width="1524" Loaded="ThemedWindow_Loaded" 
     >
-    <DockPanel  x:Name="grid1" Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Left" Background="#FFDA4242">
+    <DockPanel  x:Name="grid1" Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Left" >
 
         <ScrollViewer Height="auto" Width="1200" VerticalAlignment="Stretch"  Background="#FF72DA42" VerticalScrollBarVisibility="Auto" >
             <StackPanel x:Name="stackpanel" HorizontalAlignment="Stretch" Width="auto" Height="auto" VerticalAlignment="Stretch"/>
 
         </ScrollViewer>
-        <Grid Background="#FF898D88"  HorizontalAlignment="Right" Width="300" VerticalAlignment="Stretch" >
-            <Grid.RowDefinitions>
-                <RowDefinition Height="389*"/>
-                <RowDefinition Height="419*"/>
-            </Grid.RowDefinitions>
-            <Button Content="Nộp Bài" HorizontalAlignment="Stretch"  Click="Button_Click" Margin="68,208,64,119" />
-            <Label x:Name="TimeLabel" Content="Bộ đếm giờ" FontSize="20" HorizontalAlignment="Left" Margin="68,341,0,0" VerticalAlignment="Top" Height="46" Width="200" Background="#FFBB5F5F" Grid.RowSpan="2"/>
-            <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="290,197,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Grid   HorizontalAlignment="Right" Width="300" >
+
+            <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="151" Margin="19,261,0,0" Grid.RowSpan="2" Stroke="Black" VerticalAlignment="Top" Width="259"/>
+
+
+
+
+            <Button Content="NỘP BÀI" FontWeight="Bold" FontSize="30"  Click="Button_Click" Margin="62,334,0,0" HorizontalAlignment="Left" Width="170" Height="58" VerticalAlignment="Top"  />
+            <Label x:Name="TimeLabel" Content="00:00" FontSize="40" HorizontalAlignment="Left" Margin="93,261,0,0" VerticalAlignment="Top" Height="68" Width="98" Foreground="#FFD40909"/>
+
+            <WrapPanel HorizontalAlignment="Left" Height="225" Margin="10,31,0,0" VerticalAlignment="Top" Width="290">
+                <TextBlock Text="   THÔNG TIN BÀI THI " FontSize="25" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Width="291"/>
+                <TextBlock Text="Họ Tên: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold"/>
+                <TextBlock x:Name="hotenlb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="210"/>
+                <TextBlock Text="Vị Trí: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold"/>
+                <TextBlock x:Name="chucvulb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="193"/>
+                <TextBlock Text="Mã Số: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" />
+                <TextBlock x:Name="masolb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="218"/>
+                <TextBlock Text="Số câu hỏi: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold"/>
+                <TextBlock x:Name="socaulb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="174"/>
+                <TextBlock Text="Thời gian " FontSize="20"  HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" />
+                <TextBlock x:Name="thoigianlb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="191"/>
+
+
+            </WrapPanel>
+            <Image Margin="19,477,22,0" Source="Screenshot 2020-10-09 003241.png" Stretch="Fill" Height="99" VerticalAlignment="Top"/>
+            <Image Margin="27,581,22,0" Source="Screenshot 2020-10-09 003429.png" Stretch="Fill" Height="91" VerticalAlignment="Top"/>
+            <Image Margin="20,695,10,0" Source="Screenshot 2020-10-09 003109.png" Stretch="Fill" Height="36" VerticalAlignment="Top"/>
+
+
 
 
         </Grid>

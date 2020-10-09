@@ -23,9 +23,12 @@ namespace ThiTracNghiem
         public MainWindow()
         {
             InitializeComponent();
+            lb1.IsEnabled = true;
+            ThoiGianLabel.IsEnabled = true;
+            lb3.IsEnabled = true;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+            private void Button_Click(object sender, RoutedEventArgs e)
         {
             Person person = new Person()
             {

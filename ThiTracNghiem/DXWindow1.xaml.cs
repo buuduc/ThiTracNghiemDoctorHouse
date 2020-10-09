@@ -32,14 +32,29 @@ namespace ThiTracNghiem
         
         private void ThemedWindow_Loaded(object sender, RoutedEventArgs e)
         {
+            QuestionPull();
+            TimeCooldown();
+            AddInfor();
+        }
+        void QuestionPull()
+        {
             ps.NapData();
             listQuestion = ps.listQuestion;
             foreach (CauHoi item in listQuestion.Values)
             {
-                
+
                 stackpanel.Children.Add(item);
             }
-            TimeCooldown();
+        }
+        void AddInfor()
+        {
+            hotenlb.Text = ps.name;
+            chucvulb.Text = ps.ViTri;
+            masolb.Text = ps.MaSo;
+            socaulb.Text = ps.SoCauHoi.ToString();
+            thoigianlb.Text = ps.ThoiGian == 0 ? "Không giới hạn": ps.ThoiGian.ToString() + " phút";
+            
+
         }
         void TimeCooldown()
         {
@@ -72,7 +87,7 @@ namespace ThiTracNghiem
                 }
                 
             }
-            MessageBox.Show(diem.ToString("c"));
+            MessageBox.Show(diem.ToString());
         }
     }
 }
