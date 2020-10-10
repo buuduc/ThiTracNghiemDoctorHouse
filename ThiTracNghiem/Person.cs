@@ -15,6 +15,7 @@ namespace ThiTracNghiem
         public int SoCauHoi;
         public int ThoiGian;
         public System.Collections.SortedList listQuestion=new SortedList();
+        public List<bool> ListResult = new List<bool>();
         public Person ()
         {
             
@@ -42,6 +43,13 @@ namespace ThiTracNghiem
             }
             
         }
-        
+        public int Score
+        {
+            get
+            {
+                return ListResult.Where(x => x.Equals(true)).Count();
+            }
+        }
+              
     }
 }

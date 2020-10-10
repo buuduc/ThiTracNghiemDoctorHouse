@@ -19,6 +19,7 @@ namespace ThiTracNghiem
     /// </summary>
     public partial class ReportWindow : Window
     {
+        internal Person ps { get; set; }
         public ReportWindow()
         {
             InitializeComponent();

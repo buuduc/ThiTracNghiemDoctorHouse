@@ -12,13 +12,7 @@ namespace ThiTracNghiem
         public QuestionData(ThiTracNghiem.VanPhongDataSet dataSet)
         {
             this.dataSet = dataSet;
-            //vanPhongDataSet = new ThiTracNghiem.VanPhongDataSet();
-            //ThiTracNghiem.VanPhongDataSetTableAdapters.DatabaseTableAdapter vanPhongDataSetDatabaseTableAdapter = new ThiTracNghiem.VanPhongDataSetTableAdapters.DatabaseTableAdapter();
-            //vanPhongDataSetDatabaseTableAdapter.Fill(vanPhongDataSet.Database);
             
-
-
-
         }
         public QuestionForm TakeQuestion(int ID)
         {

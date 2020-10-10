@@ -74,9 +74,13 @@ namespace ThiTracNghiem
         {
             Time--;
             TimeLabel.Content = string.Format("{0}:{1}", Time / 60, Time % 60);
+            if (Time <= 0)
+            {
+                MessageBox.Show("Đã hết thời gian làm bài", "THÔNG BÁO!", MessageBoxButton.OK, MessageBoxImage.Information);
+                Submit();
+            }
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Submit()
         {
             int diem = 0;
             foreach (CauHoi item in listQuestion.Values)
@@ -84,10 +88,23 @@ namespace ThiTracNghiem
                 if (item.Check())
                 {
                     diem += 1;
+                    ps.ListResult.Add(true);
                 }
-                
+                else
+                    ps.ListResult.Add(false);
             }
-            MessageBox.Show(diem.ToString());
+            ReportWindow report = new ReportWindow();
+            report.Show();
+            MessageBox.Show(ps.Score.ToString());
+        }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var answer = MessageBox.Show(" Bạn có chắc chắn muốn nộp bài ! \n Hành động này không thể hoàn tác !", "THÔNG BÁO", MessageBoxButton.YesNo,MessageBoxImage.Question);
+            if (answer == MessageBoxResult.Yes)
+            {
+                Submit();
+            }
+            
         }
     }
 }
