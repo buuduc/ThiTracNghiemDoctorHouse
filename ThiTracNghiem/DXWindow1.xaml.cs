@@ -78,10 +78,13 @@ namespace ThiTracNghiem
             {
                 MessageBox.Show("Đã hết thời gian làm bài", "THÔNG BÁO!", MessageBoxButton.OK, MessageBoxImage.Information);
                 Submit();
+                
             }
         }
         private void Submit()
         {
+           
+            ps.TimeUsed = Math.Round((double)(ps.ThoiGian * 60 - Time),0);
             int diem = 0;
             foreach (CauHoi item in listQuestion.Values)
             {
@@ -93,9 +96,10 @@ namespace ThiTracNghiem
                 else
                     ps.ListResult.Add(false);
             }
-            ReportWindow report = new ReportWindow();
+            ReportWindow report = new ReportWindow(ps);
             report.Show();
-            MessageBox.Show(ps.Score.ToString());
+            this.Close();
+            //MessageBox.Show(ps.Score.ToString());
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {

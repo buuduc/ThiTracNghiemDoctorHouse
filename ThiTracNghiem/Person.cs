@@ -14,6 +14,7 @@ namespace ThiTracNghiem
         public String ViTri;
         public int SoCauHoi;
         public int ThoiGian;
+        public double TimeUsed;
         public System.Collections.SortedList listQuestion=new SortedList();
         public List<bool> ListResult = new List<bool>();
         public Person ()
