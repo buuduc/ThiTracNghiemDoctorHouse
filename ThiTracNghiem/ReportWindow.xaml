@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ThiTracNghiem"
         mc:Ignorable="d"
-        Title="ReportWindow" Height="439.5" Width="482" ResizeMode="NoResize">
-    <WrapPanel HorizontalAlignment="Left" Height="420" Margin="10,10,0,-19" VerticalAlignment="Top" Width="462">
+        Title="ReportWindow" Height="447" Width="482" ResizeMode="NoResize">
+    <WrapPanel HorizontalAlignment="Left" Height="404" Margin="10,10,0,0" VerticalAlignment="Top" Width="462">
         <TextBlock Text="             KẾT QUẢ BÀI THI " FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Width="789" Height="54"/>
         <TextBlock Text="Họ Tên: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Height="36"/>
         <TextBlock x:Name="hotenlb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="375"/>
@@ -21,7 +21,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock Text="Mã Số: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Width="68" Height="39" />
+        <TextBlock Text="Mã Số: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Width="68" Height="35" />
         <TextBlock x:Name="masolb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="368"/>
         <TextBlock Text="Số câu hỏi: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Height="40"/>
         <TextBlock x:Name="socaulb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="341"/>
@@ -29,13 +29,13 @@
         <TextBlock x:Name="thoigianlb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="269"/>
         <TextBlock Text="Thời gian thực hiện: " FontSize="20"  HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Height="38" Width="199" />
         <TextBlock x:Name="thoigianthuchienlb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="258"/>
-        <Grid Width="478" Height="118">
-            <Button Content="EXIT" FontSize="20" HorizontalAlignment="Left" Height="40" Margin="280,62,0,0" VerticalAlignment="Top" Width="168" Click="Button_Click_1"/>
-            <Rectangle Fill="#FFF7F7ED" HorizontalAlignment="Left" Height="71" Margin="77,19,0,0" Stroke="Black" VerticalAlignment="Top" Width="179"/>
+        <Grid Width="456" Height="122">
+            <Button x:Name="exitbtn" Content="EXIT" FontSize="20" HorizontalAlignment="Left" Height="40" Margin="310,78,0,0" VerticalAlignment="Top" Width="136" Click="Button_Click_1"/>
+            <Rectangle Fill="#FFF7F7ED" HorizontalAlignment="Left" Height="71" Margin="115,47,0,0" Stroke="Black" VerticalAlignment="Top" Width="178"/>
             <TextBlock Text="" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Height="40" Margin="44,50,0,0"/>
-            <TextBlock Text="ĐIỂM: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Height="40" Margin="10,24,0,0" TextDecorations="Underline" Foreground="#FFE45353"/>
-            <Label x:Name="DiemSoLb" Content="Label" FontSize="50" HorizontalAlignment="Left" Margin="101,12,0,0" VerticalAlignment="Top" Height="60" Width="179" Foreground="#FFE45353"/>
-            <Button Content="XUẤT PDF" FontSize="20" HorizontalAlignment="Left" Height="40" Margin="280,17,0,0" VerticalAlignment="Top" Width="168"/>
+            <TextBlock Text="ĐIỂM: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Height="40" Margin="29,56,0,0" TextDecorations="Underline" Foreground="#FFE45353" RenderTransformOrigin="1.177,0.612"/>
+            <Label x:Name="DiemSoLb" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Label" FontSize="50" HorizontalAlignment="Left" Margin="115,47,0,0" VerticalAlignment="Top" Height="71" Width="178" Foreground="#FFE45353"/>
+            <Button x:Name="XuatPdfbtn" Content="XUẤT PDF" FontSize="20" HorizontalAlignment="Left" Height="40" Margin="310,33,0,0" VerticalAlignment="Top" Width="136" Click="Button_Click_2"/>
         </Grid>
     </WrapPanel>
 

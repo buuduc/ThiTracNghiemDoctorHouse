@@ -50,47 +50,33 @@ namespace ThiTracNghiem
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        //{
-        //    var dialog = new SaveFileDialog();
-
-        //    dialog.AddExtension = true;
-        //    dialog.DefaultExt = "pdf";
-        //    dialog.Filter = "PDF Document (*.pdf)|*.pdf";
-        //    dialog.FileName = "xxxReport_" + Utility.FormatDate(DateTime.Now).Replace("/", "_");
-
-        //    if (dialog.ShowDialog() == false)
-        //        return;
-
-        //    FixedDocument fixedDoc = new FixedDocument();
-        //    PageContent pageContent = new PageContent();
-        //    FixedPage fixedPage = new FixedPage();
-
-        //    PrintDialog printDlg = new PrintDialog();
-        //    Size pageSize = new Size(printDlg.PrintableAreaWidth, printDlg.PrintableAreaHeight - 100);
-        //    _reportBorder.Measure(pageSize);
-        //    _reportBorder.Arrange(new Rect(10, 50, pageSize.Width, pageSize.Height));
-
-        //    //Create first page of document
-        //    fixedPage.Children.Add(_reportBorder);
-        //    ((System.Windows.Markup.IAddChild)pageContent).AddChild(fixedPage);
-        //    fixedDoc.Pages.Add(pageContent);
-
-        //    // write to PDF file
-        //    string tempFilename = "temp.xps";
-        //    File.Delete(tempFilename);
-        //    XpsDocument xpsDoc = new XpsDocument(tempFilename, FileAccess.Write);
-        //    XpsDocumentWriter xWriter = XpsDocument.CreateXpsDocumentWriter(xpsDoc);
-        //    xWriter.Write(fixedDoc.DocumentPaginator);
-        //    xpsDoc.Close();
-
-        //    PdfSharp.Xps.XpsConverter.Convert(tempFilename, path, 0);
-        }
+       
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             this.Close();
 
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                this.IsEnabled = false;
+                PrintDialog printDialog = new PrintDialog();
+                if (printDialog.ShowDialog() == true)
+                {
+                    XuatPdfbtn.Visibility= System.Windows.Visibility.Hidden;
+                    exitbtn.Visibility = System.Windows.Visibility.Hidden;
+                    printDialog.PrintVisual(this, "invoice");
+                }
+            }
+            finally
+            {
+                XuatPdfbtn.Visibility = System.Windows.Visibility.Visible;
+                exitbtn.Visibility = System.Windows.Visibility.Visible;
+                this.IsEnabled = true;
+            }
         }
     }
 }

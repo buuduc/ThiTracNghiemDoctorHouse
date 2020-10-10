@@ -20,7 +20,7 @@
 
 
             <Button Content="NỘP BÀI" FontWeight="Bold" FontSize="30"  Click="Button_Click" Margin="62,334,0,0" HorizontalAlignment="Left" Width="170" Height="58" VerticalAlignment="Top"  />
-            <Label x:Name="TimeLabel" Content="00:00" FontSize="40" Margin="93,261,109,0" VerticalAlignment="Top" Height="68" Foreground="#FFD40909"/>
+            <Label x:Name="TimeLabel" HorizontalContentAlignment="Center" Content="00:00" FontSize="40" Width="auto" Margin="19,261,22,0" VerticalAlignment="Top" Height="68" Foreground="#FFD40909"/>
 
             <WrapPanel HorizontalAlignment="Left" Height="225" Margin="10,31,0,0" VerticalAlignment="Top" Width="290">
                 <TextBlock Text="   THÔNG TIN BÀI THI " FontSize="25" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Width="291"/>

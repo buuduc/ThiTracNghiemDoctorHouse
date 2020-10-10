@@ -22,7 +22,7 @@ namespace ThiTracNghiem
     public partial class DXWindow1 : System.Windows.Window
     {
         internal Person ps;
-        private int Time;
+        private TimeSpan Time;
         private System.Collections.SortedList listQuestion;
         public DXWindow1()
         {
@@ -60,7 +60,7 @@ namespace ThiTracNghiem
         {
             if (ps.ThoiGian != 0)
             {
-                Time = ps.ThoiGian * 60;
+                Time = new TimeSpan(0, ps.ThoiGian,0);
                 var timer = new DispatcherTimer();
                 timer.Interval = TimeSpan.FromSeconds(1);
                 timer.Tick += timer_Tick;
@@ -68,13 +68,16 @@ namespace ThiTracNghiem
 
             }
             else
-                TimeLabel.Content = "Không đếm giờ";
+            {
+                TimeLabel.FontSize = 30;
+                TimeLabel.Content = "KHÔNG ĐẾM GIỜ";
+            }
         }
         void timer_Tick(object sender, EventArgs e)
         {
-            Time--;
-            TimeLabel.Content = string.Format("{0}:{1}", Time / 60, Time % 60);
-            if (Time <= 0)
+            Time=Time.Subtract(new TimeSpan(0, 0, 1));
+            TimeLabel.Content = Time.ToString(@"mm\:ss");
+            if (Time.TotalSeconds <= 0)
             {
                 MessageBox.Show("Đã hết thời gian làm bài", "THÔNG BÁO!", MessageBoxButton.OK, MessageBoxImage.Information);
                 Submit();
@@ -84,7 +87,7 @@ namespace ThiTracNghiem
         private void Submit()
         {
            
-            ps.TimeUsed = Math.Round((double)(ps.ThoiGian * 60 - Time),0);
+            ps.TimeUsed = Math.Round((double)(ps.ThoiGian * 60 - Time.TotalSeconds),0);
             int diem = 0;
             foreach (CauHoi item in listQuestion.Values)
             {
