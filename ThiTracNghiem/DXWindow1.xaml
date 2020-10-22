@@ -8,7 +8,7 @@
     >
     <DockPanel  x:Name="grid1" Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Left" >
 
-        <ScrollViewer x:Name="Scrollviewer" Height="auto" Width="1200" VerticalAlignment="Stretch"  Background="#FF72DA42" VerticalScrollBarVisibility="Auto" >
+        <ScrollViewer x:Name="SCviewer" Height="auto" Width="1200" VerticalAlignment="Stretch"  Background="#FF72DA42" VerticalScrollBarVisibility="Auto" >
             <StackPanel  x:Name="stackpanel" HorizontalAlignment="Stretch" Width="auto" Height="auto" VerticalAlignment="Stretch"/>
 
         </ScrollViewer>

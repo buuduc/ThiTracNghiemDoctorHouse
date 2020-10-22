@@ -19,9 +19,24 @@ namespace ThiTracNghiem
     /// </summary>
     public partial class Test : Window
     {
-        public Test()
+        StackPanel Spanel = new StackPanel();
+        internal System.Collections.SortedList listQuestion;
+
+        public Test(System.Collections.SortedList listQuestion)
         {
             InitializeComponent();
+            this.listQuestion = listQuestion;
+
+
+        }
+
+        private void WDLoaded(object sender, RoutedEventArgs e)
+        {
+            foreach (CauHoi item in listQuestion.Values)
+            {
+                stackpanel.Children.Add(item);
+            }
+            
         }
     }
 }

@@ -24,7 +24,7 @@ namespace ThiTracNghiem
     {
         internal Person ps;
         private TimeSpan Time;
-        private System.Collections.SortedList listQuestion;
+        internal System.Collections.SortedList listQuestion;
         public DXWindow1()
         {
             InitializeComponent();
@@ -44,7 +44,7 @@ namespace ThiTracNghiem
             foreach (CauHoi item in listQuestion.Values)
             {
 
-                stackpanel.Children.Add(item);
+                this.stackpanel.Children.Add(item);
             }
         }
         void AddInfor()
@@ -119,8 +119,9 @@ namespace ThiTracNghiem
         private void SetData()
         {
             ExcelWorksheet workSheet;
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 
-            using (ExcelPackage MaNS = new ExcelPackage(new FileInfo(Properties.Settings.Default.PathOfReportExcel)))
+            using (ExcelPackage MaNS = new ExcelPackage(new FileInfo(@Properties.Settings.Default.PathOfReportExcel)))
             //using (ExcelPackage MaNS = new ExcelPackage(new FileInfo(@"D:\TEMP\Score.xlsx")))
             {
                 // lấy ra sheet đầu tiên để thao tác
@@ -144,24 +145,40 @@ namespace ThiTracNghiem
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
-            var answer = MessageBox.Show(" Bạn có chắc chắn muốn nộp bài ! \n Hành động này không thể hoàn tác !", "THÔNG BÁO", MessageBoxButton.YesNo,MessageBoxImage.Question);
-            if (answer == MessageBoxResult.Yes)
 
+            //var answer = MessageBox.Show(" Bạn có chắc chắn muốn nộp bài ! \n Hành động này không thể hoàn tác !", "THÔNG BÁO", MessageBoxButton.YesNo,MessageBoxImage.Question);
+            //if (answer == MessageBoxResult.Yes)
+
+            //{
+            //    try
+            //    {
+            //        Submit();
+            //        SetData();
+            //    }
+            //    catch (Exception exe)
+            //    {
+            //        MessageBox.Show(exe.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            //        throw;
+            //    }
+
+            //}
+
+            
+
+            //StackPanel SPnel = new StackPanel();
+            //grid1.Children.Remove(SCviewer);
+            //this.RemoveLogicalChild(item);
+            //this.RemoveVisualChild(stackpanel);
+
+            //stackpanel.TransformToAncestor(SPnel);
+            //SPnel = this.Parse
+            foreach (CauHoi item in listQuestion.Values)
             {
-                try
-                {
-                    Submit();
-                    SetData();
-                }
-                catch (Exception exe)
-                {
-                    MessageBox.Show(exe.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                    throw;
-                }
+                this.RemoveLogicalChild(stackpanel);
                 
             }
-            
+            Test a = new Test(listQuestion);
+            a.Show();
         }
     }
 }

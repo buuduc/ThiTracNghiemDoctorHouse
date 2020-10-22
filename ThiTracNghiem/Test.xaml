@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ThiTracNghiem"
         mc:Ignorable="d"
-        Title="Test" Height="450" Width="800">
-    <Grid>
+        Title="Test" Height="450" Width="800" Loaded="WDLoaded">
         
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="241*"/>
+            <ColumnDefinition Width="23*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel x:Name="stackpanel" HorizontalAlignment="Left" Height="378" Margin="10,31,-4,0" VerticalAlignment="Top" Width="786" Grid.ColumnSpan="2"/>
+
     </Grid>
 </Window>
