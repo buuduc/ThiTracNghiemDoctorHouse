@@ -8,8 +8,8 @@
     >
     <DockPanel  x:Name="grid1" Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Left" >
 
-        <ScrollViewer Height="auto" Width="1200" VerticalAlignment="Stretch"  Background="#FF72DA42" VerticalScrollBarVisibility="Auto" >
-            <StackPanel x:Name="stackpanel" HorizontalAlignment="Stretch" Width="auto" Height="auto" VerticalAlignment="Stretch"/>
+        <ScrollViewer x:Name="Scrollviewer" Height="auto" Width="1200" VerticalAlignment="Stretch"  Background="#FF72DA42" VerticalScrollBarVisibility="Auto" >
+            <StackPanel  x:Name="stackpanel" HorizontalAlignment="Stretch" Width="auto" Height="auto" VerticalAlignment="Stretch"/>
 
         </ScrollViewer>
         <Grid   HorizontalAlignment="Right" Width="300" >
@@ -19,7 +19,7 @@
 
 
 
-            <Button Content="NỘP BÀI" FontWeight="Bold" FontSize="30"  Click="Button_Click" Margin="62,334,0,0" HorizontalAlignment="Left" Width="170" Height="58" VerticalAlignment="Top"  />
+            <Button x:Name="NopBaibtn" Content="NỘP BÀI" FontWeight="Bold" FontSize="30"  Click="Button_Click" Margin="62,334,0,0" HorizontalAlignment="Left" Width="170" Height="58" VerticalAlignment="Top"  />
             <Label x:Name="TimeLabel" HorizontalContentAlignment="Center" Content="00:00" FontSize="40" Width="auto" Margin="19,261,22,0" VerticalAlignment="Top" Height="68" Foreground="#FFD40909"/>
 
             <WrapPanel HorizontalAlignment="Left" Height="225" Margin="10,31,0,0" VerticalAlignment="Top" Width="290">

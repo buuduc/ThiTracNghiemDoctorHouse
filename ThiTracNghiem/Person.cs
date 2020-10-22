@@ -28,11 +28,12 @@ namespace ThiTracNghiem
             var STTCauHoi = list.GetRange(0, SoCauHoi);
             return STTCauHoi;
         }
-        public void NapData()
+        public void NapData(string password)
         {
             
             ThiTracNghiem.VanPhongDataSet vanPhongDataSet = new ThiTracNghiem.VanPhongDataSet();
             ThiTracNghiem.VanPhongDataSetTableAdapters.DatabaseTableAdapter vanPhongDataSetDatabaseTableAdapter = new ThiTracNghiem.VanPhongDataSetTableAdapters.DatabaseTableAdapter();
+            vanPhongDataSetDatabaseTableAdapter.Connection.ConnectionString += ";Jet OLEDB:Database Password="+password;
             vanPhongDataSetDatabaseTableAdapter.Fill(vanPhongDataSet.Database);
             int i = 1;
             foreach (var item in RandomQuestion(vanPhongDataSet.Database.Count))

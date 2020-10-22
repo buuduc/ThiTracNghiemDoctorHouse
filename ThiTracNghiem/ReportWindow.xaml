@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ThiTracNghiem"
         mc:Ignorable="d"
         Title="ReportWindow" Height="447" Width="482" ResizeMode="NoResize">
-    <WrapPanel HorizontalAlignment="Left" Height="404" Margin="10,10,0,0" VerticalAlignment="Top" Width="462">
+    <WrapPanel x:Name="wrappanel" HorizontalAlignment="Left" Height="437" Margin="10,10,-6,-29" VerticalAlignment="Top" Width="472">
         <TextBlock Text="             KẾT QUẢ BÀI THI " FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Width="789" Height="54"/>
         <TextBlock Text="Họ Tên: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Height="36"/>
         <TextBlock x:Name="hotenlb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="375"/>
@@ -37,6 +37,7 @@
             <Label x:Name="DiemSoLb" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Label" FontSize="50" HorizontalAlignment="Left" Margin="115,47,0,0" VerticalAlignment="Top" Height="71" Width="178" Foreground="#FFE45353"/>
             <Button x:Name="XuatPdfbtn" Content="XUẤT PDF" FontSize="20" HorizontalAlignment="Left" Height="40" Margin="310,33,0,0" VerticalAlignment="Top" Width="136" Click="Button_Click_2"/>
         </Grid>
+
     </WrapPanel>
 
 

@@ -89,16 +89,7 @@
               <Mapping SourceColumn="DapAnDung" DataSetColumn="DapAnDung" />
               <Mapping SourceColumn="DapAnDuocChon" DataSetColumn="DapAnDuocChon" />
             </Mappings>
-            <Sources>
-              <DbSource ConnectionRef="VanPhongConnectionString (Settings)" DbObjectName="Database" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="FillBy" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
-                <SelectCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="true">
-                    <CommandText>SELECT ID, NoiDung, TraLoi1, TraLoi2, TraLoi3, TraLoi4, DapAnDung, DapAnDuocChon FROM [Database]</CommandText>
-                    <Parameters />
-                  </DbCommand>
-                </SelectCommand>
-              </DbSource>
-            </Sources>
+            <Sources />
           </TableAdapter>
         </Tables>
         <Sources />
@@ -108,7 +99,7 @@
   <xs:element name="VanPhongDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="VanPhongDataSet" msprop:Generator_UserDSName="VanPhongDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="Database" msprop:Generator_TableClassName="DatabaseDataTable" msprop:Generator_TableVarName="tableDatabase" msprop:Generator_RowChangedName="DatabaseRowChanged" msprop:Generator_TablePropName="Database" msprop:Generator_RowDeletingName="DatabaseRowDeleting" msprop:Generator_RowChangingName="DatabaseRowChanging" msprop:Generator_RowEvHandlerName="DatabaseRowChangeEventHandler" msprop:Generator_RowDeletedName="DatabaseRowDeleted" msprop:Generator_RowClassName="DatabaseRow" msprop:Generator_UserTableName="Database" msprop:Generator_RowEvArgName="DatabaseRowChangeEvent">
+        <xs:element name="Database" msprop:Generator_TableClassName="DatabaseDataTable" msprop:Generator_TableVarName="tableDatabase" msprop:Generator_TablePropName="Database" msprop:Generator_RowDeletingName="DatabaseRowDeleting" msprop:Generator_RowChangingName="DatabaseRowChanging" msprop:Generator_RowEvHandlerName="DatabaseRowChangeEventHandler" msprop:Generator_RowDeletedName="DatabaseRowDeleted" msprop:Generator_UserTableName="Database" msprop:Generator_RowChangedName="DatabaseRowChanged" msprop:Generator_RowEvArgName="DatabaseRowChangeEvent" msprop:Generator_RowClassName="DatabaseRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />

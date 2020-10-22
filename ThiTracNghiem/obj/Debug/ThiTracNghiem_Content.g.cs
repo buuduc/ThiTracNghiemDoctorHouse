@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("vanphong.accdb")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("vanphong.mdb")]
 
 

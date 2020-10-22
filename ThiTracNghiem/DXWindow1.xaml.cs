@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows;
@@ -12,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 using DevExpress.Xpf.Core;
-
+using OfficeOpenXml;
 
 namespace ThiTracNghiem
 {
@@ -38,7 +39,7 @@ namespace ThiTracNghiem
         }
         void QuestionPull()
         {
-            ps.NapData();
+            ps.NapData("buuduc123");
             listQuestion = ps.listQuestion;
             foreach (CauHoi item in listQuestion.Values)
             {
@@ -56,12 +57,13 @@ namespace ThiTracNghiem
             
 
         }
+        DispatcherTimer timer = new DispatcherTimer();
         void TimeCooldown()
         {
             if (ps.ThoiGian != 0)
             {
                 Time = new TimeSpan(0, ps.ThoiGian,0);
-                var timer = new DispatcherTimer();
+                
                 timer.Interval = TimeSpan.FromSeconds(1);
                 timer.Tick += timer_Tick;
                 timer.Start();
@@ -86,7 +88,11 @@ namespace ThiTracNghiem
         }
         private void Submit()
         {
-           
+            timer.Stop();
+            foreach (CauHoi item in listQuestion.Values)
+            {
+                item.Report();
+            }
             ps.TimeUsed = Math.Round((double)(ps.ThoiGian * 60 - Time.TotalSeconds),0);
             int diem = 0;
             foreach (CauHoi item in listQuestion.Values)
@@ -99,17 +105,61 @@ namespace ThiTracNghiem
                 else
                     ps.ListResult.Add(false);
             }
+            //this.RemoveVisualChild(this.stackpanel);
+            //this.RemoveLogicalChild(this.stackpanel);
             ReportWindow report = new ReportWindow(ps);
+            NopBaibtn.IsEnabled = false;
+            
+            this.IsEnabled = false;
             report.Show();
-            this.Close();
+            this.IsEnabled = true;
+
             //MessageBox.Show(ps.Score.ToString());
+        }
+        private void SetData()
+        {
+            ExcelWorksheet workSheet;
+
+            using (ExcelPackage MaNS = new ExcelPackage(new FileInfo(Properties.Settings.Default.PathOfReportExcel)))
+            //using (ExcelPackage MaNS = new ExcelPackage(new FileInfo(@"D:\TEMP\Score.xlsx")))
+            {
+                // lấy ra sheet đầu tiên để thao tác
+                workSheet = MaNS.Workbook.Worksheets[0];
+                int start = workSheet.Dimension.Start.Row;
+                int end = workSheet.Dimension.End.Row;
+                int row = end + 1;
+                int col = 1;
+                workSheet.Cells[row, col++].Value = end-start+1;
+                workSheet.Cells[row, col++].Value = ps.MaSo;
+                workSheet.Cells[row, col++].Value = ps.name;
+                workSheet.Cells[row, col++].Value = ps.ViTri;
+                workSheet.Cells[row, col++].Value = ps.Score.ToString() + "/"+ ps.SoCauHoi.ToString();
+                workSheet.Cells[row, col++].Value = ps.ThoiGian;
+                workSheet.Cells[row, col++].Value = ps.TimeUsed;
+                workSheet.Cells[row, col++].Value = ps.SoCauHoi;
+                MaNS.Save();
+
+
+            }
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            
             var answer = MessageBox.Show(" Bạn có chắc chắn muốn nộp bài ! \n Hành động này không thể hoàn tác !", "THÔNG BÁO", MessageBoxButton.YesNo,MessageBoxImage.Question);
             if (answer == MessageBoxResult.Yes)
+
             {
-                Submit();
+                try
+                {
+                    Submit();
+                    SetData();
+                }
+                catch (Exception exe)
+                {
+                    MessageBox.Show(exe.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    throw;
+                }
+                
             }
             
         }

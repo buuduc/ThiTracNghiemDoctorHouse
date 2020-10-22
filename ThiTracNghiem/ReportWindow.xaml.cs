@@ -26,7 +26,9 @@ namespace ThiTracNghiem
             InitializeComponent();
             this.ps = ps;
             AddInfor();
+            
         }
+        
         void AddInfor()
         {
             hotenlb.Text = ps.name;

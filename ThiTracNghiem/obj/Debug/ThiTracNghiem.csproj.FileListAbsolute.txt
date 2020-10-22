@@ -229,3 +229,705 @@ E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\D
 E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
 E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ReportWindow.g.cs
 E:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ReportWindow.baml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\VanPhong.mdb
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ThiTracNghiem.exe.config
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ThiTracNghiem.exe
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ThiTracNghiem.pdb
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.CodeParser.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Data.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.DataAccess.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Images.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Mvvm.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Spreadsheet.v20.1.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Charts.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.CodeView.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Controls.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Core.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.DataAccess.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Diagram.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Docking.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.DocumentViewer.v20.1.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.ExpressionEditor.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Grid.v20.1.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Grid.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Layout.v20.1.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.LayoutControl.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.NavBar.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Office.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.PivotGrid.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Printing.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.PropertyGrid.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.ReportDesigner.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Ribbon.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.RichEdit.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Scheduling.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Spreadsheet.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Themes.DXStyle.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Themes.Office2019Colorful.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpo.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraReports.v20.1.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraScheduler.v20.1.Core.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.DataAccess.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Mvvm.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Data.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Spreadsheet.v20.1.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Charts.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Controls.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Core.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.DataAccess.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Diagram.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Docking.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.DocumentViewer.v20.1.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.ExpressionEditor.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Grid.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Grid.v20.1.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Layout.v20.1.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.LayoutControl.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.NavBar.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.PivotGrid.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Printing.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.PropertyGrid.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.ReportDesigner.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Ribbon.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.RichEdit.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Scheduling.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Spreadsheet.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpo.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraReports.v20.1.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraScheduler.v20.1.Core.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Spreadsheet.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Spreadsheet.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Spreadsheet.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Spreadsheet.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Charts.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Charts.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Charts.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Charts.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Controls.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Controls.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Controls.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Controls.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Core.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Core.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Core.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Core.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Docking.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Docking.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Docking.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Docking.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Grid.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Grid.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Grid.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Grid.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.LayoutControl.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.LayoutControl.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.NavBar.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.NavBar.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.NavBar.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.NavBar.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Printing.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Printing.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Printing.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Printing.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.ReportDesigner.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.ReportDesigner.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.ReportDesigner.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.ReportDesigner.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Ribbon.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Ribbon.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Ribbon.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Ribbon.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.RichEdit.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.RichEdit.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.RichEdit.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.RichEdit.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Scheduling.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Scheduling.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Scheduling.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Scheduling.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Spreadsheet.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Spreadsheet.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Spreadsheet.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Spreadsheet.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.csprojAssemblyReference.cache
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\MainWindow.baml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\CauHoi.g.cs
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\DXWindow1.g.cs
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\MainWindow.g.cs
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ReportWindow.g.cs
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\App.g.cs
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem_Content.g.cs
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem_MarkupCompile.cache
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem_MarkupCompile.lref
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\CauHoi.baml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\DXWindow1.baml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ReportWindow.baml
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.g.resources
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.Properties.Resources.resources
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.csproj.GenerateResource.cache
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.exe.licenses
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.csproj.CoreCompileInputs.cache
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.csproj.CopyComplete
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.exe
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.pdb
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\EPPlus.dll
+D:\OneDrive - poxz\User\ADMIN\Documents\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\EPPlus.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.exe
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.pdb
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\VanPhong.mdb
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ThiTracNghiem.exe.config
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ThiTracNghiem.exe
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ThiTracNghiem.pdb
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.CodeParser.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Data.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.DataAccess.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Images.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Mvvm.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Charts.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.CodeView.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Controls.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Core.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.DataAccess.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Diagram.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Docking.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.DocumentViewer.v20.1.Core.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.ExpressionEditor.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Grid.v20.1.Core.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Grid.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Layout.v20.1.Core.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.LayoutControl.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.NavBar.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Office.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.PivotGrid.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Printing.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.PropertyGrid.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.ReportDesigner.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Ribbon.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.RichEdit.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Scheduling.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Spreadsheet.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Themes.DXStyle.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Themes.Office2019Colorful.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpo.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraReports.v20.1.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraScheduler.v20.1.Core.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\EPPlus.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Spreadsheet.v20.1.Core.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.DataAccess.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Mvvm.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Data.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Charts.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Controls.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Core.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.DataAccess.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Diagram.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Docking.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.DocumentViewer.v20.1.Core.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.ExpressionEditor.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Grid.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Grid.v20.1.Core.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Layout.v20.1.Core.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.LayoutControl.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.NavBar.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.PivotGrid.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Printing.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.PropertyGrid.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.ReportDesigner.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Ribbon.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.RichEdit.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Scheduling.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Spreadsheet.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpo.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraReports.v20.1.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraScheduler.v20.1.Core.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\EPPlus.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Spreadsheet.v20.1.Core.xml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Charts.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Charts.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Charts.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Charts.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Controls.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Controls.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Controls.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Controls.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Core.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Core.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Core.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Core.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Docking.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Docking.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Docking.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Docking.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Grid.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Grid.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Grid.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Grid.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.LayoutControl.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.LayoutControl.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.NavBar.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.NavBar.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.NavBar.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.NavBar.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Printing.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Printing.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Printing.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Printing.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.ReportDesigner.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.ReportDesigner.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.ReportDesigner.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.ReportDesigner.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Ribbon.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Ribbon.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Ribbon.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Ribbon.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.RichEdit.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.RichEdit.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.RichEdit.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.RichEdit.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Scheduling.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Scheduling.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Scheduling.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Scheduling.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Spreadsheet.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Spreadsheet.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Spreadsheet.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Spreadsheet.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Spreadsheet.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Spreadsheet.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Spreadsheet.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Spreadsheet.v20.1.Core.resources.dll
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\App.g.cs
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem_Content.g.cs
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem_MarkupCompile.cache
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem_MarkupCompile.lref
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.g.resources
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.Properties.Resources.resources
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.csproj.GenerateResource.cache
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.exe.licenses
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.csproj.CoreCompileInputs.cache
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.csproj.CopyComplete
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\MainWindow.baml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\MainWindow.g.cs
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\CauHoi.g.cs
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\DXWindow1.g.cs
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ReportWindow.g.cs
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\CauHoi.baml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\DXWindow1.baml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ReportWindow.baml
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.csprojAssemblyReference.cache
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\Test.g.cs
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Debug\Test.baml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\VanPhong.mdb
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ThiTracNghiem.exe.config
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ThiTracNghiem.exe
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ThiTracNghiem.pdb
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.CodeParser.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Data.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.DataAccess.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Images.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Mvvm.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Charts.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.CodeView.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Controls.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Core.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.DataAccess.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Diagram.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Docking.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.DocumentViewer.v20.1.Core.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.ExpressionEditor.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Grid.v20.1.Core.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Grid.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Layout.v20.1.Core.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.LayoutControl.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.NavBar.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Office.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.PivotGrid.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Printing.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.PropertyGrid.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.ReportDesigner.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Ribbon.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.RichEdit.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Scheduling.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Spreadsheet.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Themes.DXStyle.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Themes.Office2019Colorful.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpo.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraReports.v20.1.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraScheduler.v20.1.Core.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Spreadsheet.v20.1.Core.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.DataAccess.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Mvvm.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Data.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Charts.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Controls.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Core.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.DataAccess.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Diagram.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Docking.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.DocumentViewer.v20.1.Core.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.ExpressionEditor.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Grid.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Grid.v20.1.Core.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Layout.v20.1.Core.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.LayoutControl.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.NavBar.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.PivotGrid.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Printing.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.PropertyGrid.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.ReportDesigner.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Ribbon.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.RichEdit.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Scheduling.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpf.Spreadsheet.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Xpo.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraReports.v20.1.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.XtraScheduler.v20.1.Core.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\EPPlus.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\DevExpress.Spreadsheet.v20.1.Core.xml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Charts.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Charts.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Charts.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Charts.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Controls.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Controls.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Controls.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Controls.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Core.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Core.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Core.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Core.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Docking.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Docking.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Docking.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Docking.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Grid.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Grid.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Grid.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Grid.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.LayoutControl.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.LayoutControl.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.NavBar.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.NavBar.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.NavBar.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.NavBar.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Printing.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Printing.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Printing.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Printing.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.ReportDesigner.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.ReportDesigner.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.ReportDesigner.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.ReportDesigner.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Ribbon.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Ribbon.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Ribbon.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Ribbon.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.RichEdit.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.RichEdit.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.RichEdit.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.RichEdit.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Scheduling.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Scheduling.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Scheduling.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Scheduling.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpf.Spreadsheet.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpf.Spreadsheet.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpf.Spreadsheet.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpf.Spreadsheet.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.XtraScheduler.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\de\DevExpress.Spreadsheet.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\es\DevExpress.Spreadsheet.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ja\DevExpress.Spreadsheet.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\bin\Debug\ru\DevExpress.Spreadsheet.v20.1.Core.resources.dll
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.csprojAssemblyReference.cache
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\MainWindow.baml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\CauHoi.g.cs
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\DXWindow1.g.cs
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\MainWindow.g.cs
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\ReportWindow.g.cs
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\Test.g.cs
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\App.g.cs
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem_Content.g.cs
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem_MarkupCompile.cache
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem_MarkupCompile.lref
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\CauHoi.baml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\DXWindow1.baml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\ReportWindow.baml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\Test.baml
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.g.resources
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.Properties.Resources.resources
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.csproj.GenerateResource.cache
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.exe.licenses
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.csproj.CoreCompileInputs.cache
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.csproj.CopyComplete
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.exe
+D:\TEMP\ThiTracNghiem\ThiTracNghiem\obj\Debug\ThiTracNghiem.pdb
