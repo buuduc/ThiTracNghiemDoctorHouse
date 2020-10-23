@@ -135,8 +135,8 @@ namespace ThiTracNghiem
                 workSheet.Cells[row, col++].Value = ps.name;
                 workSheet.Cells[row, col++].Value = ps.ViTri;
                 workSheet.Cells[row, col++].Value = ps.Score.ToString() + "/"+ ps.SoCauHoi.ToString();
-                workSheet.Cells[row, col++].Value = ps.ThoiGian;
-                workSheet.Cells[row, col++].Value = ps.TimeUsed;
+                workSheet.Cells[row, col++].Value = ps.ThoiGian + " phút"; 
+                workSheet.Cells[row, col++].Value = new TimeSpan(0, 0, (int)ps.TimeUsed).ToString(@"mm\:ss");
                 workSheet.Cells[row, col++].Value = ps.SoCauHoi;
                 MaNS.Save();
 
@@ -146,24 +146,24 @@ namespace ThiTracNghiem
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-            //var answer = MessageBox.Show(" Bạn có chắc chắn muốn nộp bài ! \n Hành động này không thể hoàn tác !", "THÔNG BÁO", MessageBoxButton.YesNo,MessageBoxImage.Question);
-            //if (answer == MessageBoxResult.Yes)
+            var answer = MessageBox.Show(" Bạn có chắc chắn muốn nộp bài ! \n Hành động này không thể hoàn tác !", "THÔNG BÁO", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (answer == MessageBoxResult.Yes)
 
-            //{
-            //    try
-            //    {
-            //        Submit();
-            //        SetData();
-            //    }
-            //    catch (Exception exe)
-            //    {
-            //        MessageBox.Show(exe.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            //        throw;
-            //    }
+            {
+                try
+                {
+                    Submit();
+                    SetData();
+                }
+                catch (Exception exe)
+                {
+                    MessageBox.Show(exe.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    throw;
+                }
 
-            //}
+            }
 
-            
+
 
             //StackPanel SPnel = new StackPanel();
             //grid1.Children.Remove(SCviewer);
@@ -172,13 +172,13 @@ namespace ThiTracNghiem
 
             //stackpanel.TransformToAncestor(SPnel);
             //SPnel = this.Parse
-            foreach (CauHoi item in listQuestion.Values)
-            {
-                this.RemoveLogicalChild(stackpanel);
-                
-            }
-            Test a = new Test(listQuestion);
-            a.Show();
+            //foreach (CauHoi item in listQuestion.Values)
+            //{
+            //    this.RemoveLogicalChild(stackpanel);
+
+            //}
+            //Test a = new Test(listQuestion);
+            //a.Show();
         }
     }
 }
