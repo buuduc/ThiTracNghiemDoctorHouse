@@ -1,33 +1,29 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ThiTracNghiem
 {
-    class QuestionData
+    internal class QuestionData
     {
-        private ThiTracNghiem.VanPhongDataSet dataSet;
-        public QuestionData(ThiTracNghiem.VanPhongDataSet dataSet)
+        private  VanPhongDataSet dataSet;
+
+        public QuestionData(VanPhongDataSet dataSet)
         {
             this.dataSet = dataSet;
-            
         }
+
         public QuestionForm TakeQuestion(int ID)
         {
             var data = dataSet.Database.Rows.Find(ID);
-            QuestionForm question = new QuestionForm()
+            var question = new QuestionForm
             {
-                Content = ((ThiTracNghiem.VanPhongDataSet.DatabaseRow)data).NoiDung,
-                A = ((ThiTracNghiem.VanPhongDataSet.DatabaseRow)data).TraLoi1,
-                B = ((ThiTracNghiem.VanPhongDataSet.DatabaseRow)data).TraLoi2,
-                C = ((ThiTracNghiem.VanPhongDataSet.DatabaseRow)data).TraLoi3,
-                D = ((ThiTracNghiem.VanPhongDataSet.DatabaseRow)data).TraLoi4,
-                trueQuestion = Convert.ToInt32(((ThiTracNghiem.VanPhongDataSet.DatabaseRow)data).DapAnDung)
-
+                Content = ((VanPhongDataSet.DatabaseRow) data).NoiDung,
+                A = ((VanPhongDataSet.DatabaseRow) data).TraLoi1,
+                B = ((VanPhongDataSet.DatabaseRow) data).TraLoi2,
+                C = ((VanPhongDataSet.DatabaseRow) data).TraLoi3,
+                D = ((VanPhongDataSet.DatabaseRow) data).TraLoi4,
+                trueQuestion = Convert.ToInt32(((VanPhongDataSet.DatabaseRow) data).DapAnDung)
             };
-            
+
             return question;
         }
     }

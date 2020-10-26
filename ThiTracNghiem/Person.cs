@@ -2,25 +2,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ThiTracNghiem.VanPhongDataSetTableAdapters;
 
 namespace ThiTracNghiem
 {
-    class Person
+    internal class Person
     {
-        public String name;
-        public String MaSo;
-        public String ViTri;
+        public SortedList listQuestion = new SortedList();
+        public List<bool> ListResult = new List<bool>();
+        public string MaSo;
+        public string name;
         public int SoCauHoi;
         public int ThoiGian;
         public double TimeUsed;
-        public System.Collections.SortedList listQuestion=new SortedList();
-        public List<bool> ListResult = new List<bool>();
-        public Person ()
+        public string ViTri;
+
+        public int Score
         {
-            
+            get { return ListResult.Where(x => x.Equals(true)).Count(); }
         }
+
         private List<int> RandomQuestion(int Max)
         {
             var list = Enumerable.Range(1, Max).ToList();
@@ -28,30 +29,21 @@ namespace ThiTracNghiem
             var STTCauHoi = list.GetRange(0, SoCauHoi);
             return STTCauHoi;
         }
+
         public void NapData(string password)
         {
-            
-            ThiTracNghiem.VanPhongDataSet vanPhongDataSet = new ThiTracNghiem.VanPhongDataSet();
-            ThiTracNghiem.VanPhongDataSetTableAdapters.DatabaseTableAdapter vanPhongDataSetDatabaseTableAdapter = new ThiTracNghiem.VanPhongDataSetTableAdapters.DatabaseTableAdapter();
-            vanPhongDataSetDatabaseTableAdapter.Connection.ConnectionString += ";Jet OLEDB:Database Password="+password;
+            var vanPhongDataSet = new VanPhongDataSet();
+            var vanPhongDataSetDatabaseTableAdapter = new DatabaseTableAdapter();
+            vanPhongDataSetDatabaseTableAdapter.Connection.ConnectionString +=
+                ";Jet OLEDB:Database Password=" + password;
             vanPhongDataSetDatabaseTableAdapter.Fill(vanPhongDataSet.Database);
-            int i = 1;
+            var i = 1;
             foreach (var item in RandomQuestion(vanPhongDataSet.Database.Count))
             {
-                QuestionData qsdt = new QuestionData(vanPhongDataSet);
-                CauHoi control = new CauHoi(item, i, qsdt);
-                this.listQuestion.Add(i++, control); //day la usercontrol
-                
-            }
-            
-        }
-        public int Score
-        {
-            get
-            {
-                return ListResult.Where(x => x.Equals(true)).Count();
+                var qsdt = new QuestionData(vanPhongDataSet);
+                var control = new CauHoi(item, i, qsdt);
+                listQuestion.Add(i++, control); //day la usercontrol
             }
         }
-              
     }
 }
