@@ -6,13 +6,12 @@
     Title="BÀI THI" Height="790.6" Width="1524" Loaded="ThemedWindow_Loaded">
     <DockPanel x:Name="grid1" Width="auto" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Left">
 
-        <ScrollViewer x:Name="SCviewer" Height="auto" Width="1200" VerticalAlignment="Stretch" Background="#72DA42"
+        <ScrollViewer x:Name="SCviewer" Height="auto" Width="1200" VerticalAlignment="Stretch" Background="DimGray"
                       VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Auto">
 
 
             <StackPanel x:Name="stackpanel" HorizontalAlignment="Stretch" Width="auto" Height="auto"
-                            VerticalAlignment="Stretch" />
-
+                        VerticalAlignment="Stretch" />
 
 
         </ScrollViewer>

@@ -10,24 +10,26 @@ namespace ThiTracNghiem
     /// </summary>
     public partial class CauHoi : UserControl
     {
+        private int indexAnswer;
         internal int indexData;
         internal SortedList ListAnswer;
         internal QuestionData questiondata;
         internal int stt;
         internal int truequestion;
 
-        public CauHoi CloneCauHoi()
-        {
-            CauHoi cloneCauHoi = new CauHoi(indexData,stt,questiondata);
-            cloneCauHoi.indexAnswer = indexAnswer;
-            return cloneCauHoi;
-        }
         internal CauHoi(int indexData, int stt, QuestionData questiondata)
         {
             InitializeComponent();
             this.indexData = indexData;
             this.stt = stt;
             this.questiondata = questiondata;
+        }
+
+        public CauHoi CloneCauHoi()
+        {
+            var cloneCauHoi = new CauHoi(indexData, stt, questiondata);
+            cloneCauHoi.indexAnswer = indexAnswer;
+            return cloneCauHoi;
         }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
@@ -47,7 +49,6 @@ namespace ThiTracNghiem
             Report();
         }
 
-        private int indexAnswer = 0;
         public bool Check()
         {
             var index = 0;
@@ -69,13 +70,9 @@ namespace ThiTracNghiem
             foreach (RadioButton item in AnswerPanel.Children)
             {
                 index++;
-                if (index ==indexAnswer)
-                {
-                    item.IsChecked = true;
-                }
+                if (index == indexAnswer) item.IsChecked = true;
             }
         }
-
 
 
         private void RadioCheck(object sender, RoutedEventArgs e)
@@ -85,7 +82,7 @@ namespace ThiTracNghiem
 
         public void Report()
         {
-           int  index = 0;
+            var index = 0;
             var bc = new BrushConverter();
             foreach (RadioButton item in AnswerPanel.Children)
             {

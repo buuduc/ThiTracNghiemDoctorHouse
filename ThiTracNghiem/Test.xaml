@@ -4,67 +4,85 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="Test" Height="922.05" Width="800" Loaded="WDLoaded">
+        Title="Test" Height="922.05" Width="850" Loaded="WDLoaded" ResizeMode="NoResize">
 
     <ScrollViewer x:Name="thanhcuon" Width="auto" Height="auto">
         <Grid x:Name="KetquaGrid">
             <Grid.RowDefinitions>
-                <RowDefinition Height="150"></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
+                <RowDefinition Height="150" />
+                <RowDefinition Height="300" />
+                <RowDefinition Height="422*" />
 
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="400"></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="400" />
+                <ColumnDefinition />
             </Grid.ColumnDefinitions>
-            <Grid Grid.Row="0" Grid.Height="140 " Grid.ColumnSpan="2">
-                <Image  Source="header.png" Stretch="Fill"  />
+            <Grid Grid.Row="0" Grid.Height="140 " Grid.ColumnSpan="2" Margin="0,5">
+                <Image Source="header.png" Stretch="Fill" />
+                <Label x:Name="STT" Content="unknown" HorizontalAlignment="Left" Foreground="Black" Margin="652,43,0,0"
+                       VerticalAlignment="Top" FontWeight="Bold" FontSize="18"
+                       RenderTransformOrigin="0.2,3.773" Width="149" Height="28" />
+                <TextBlock x:Name="ProjectLabel" Text="TIN HOC VAN PHONG" HorizontalAlignment="Left" Foreground="Black" FontWeight="Bold"
+                           Margin="682,71,0,0" VerticalAlignment="Top" TextWrapping="Wrap"
+                           RenderTransformOrigin="0.2,3.773" Width="130" Height="50" FontSize="18"/>
             </Grid>
-            <Grid Grid.Row="1" Grid.Column="1">
+            <Grid Grid.Row="1" Grid.Column="1" Grid.RowSpan="2">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="344*"/>
-                    <RowDefinition Height="49*"/>
+                    <RowDefinition Height="344*" />
+                    <RowDefinition Height="49*" />
                 </Grid.RowDefinitions>
-                <Rectangle Fill="#FFF7F7ED" HorizontalAlignment="Left" Height="311" Margin="10,55,0,0" Stroke="Black"
-                           VerticalAlignment="Top" Width="365" Grid.RowSpan="2" />
+                <Rectangle Fill="#FFF7F7ED" HorizontalAlignment="Left" Height="224" Margin="10,55,0,0" Stroke="Black"
+                           VerticalAlignment="Top" Width="339" />
                 <TextBlock Text="" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold"
                            Height="40" Margin="44,50,0,0" />
-                <TextBlock Text="ĐIỂM SỐ ĐẠT ĐƯỢC: " FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold"
+                <TextBlock Text="ĐIỂM SỐ ĐẠT ĐƯỢC: " FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top"
+                           FontWeight="Bold"
                            Height="40" Margin="10,10,0,0" TextDecorations="Underline" Foreground="#FFE45353"
                            RenderTransformOrigin="1.177,0.612" />
                 <Label x:Name="DiemSoLb" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
-                       Content="Label" FontSize="50" HorizontalAlignment="Left" Margin="93,160,0,0" VerticalAlignment="Top"
-                       Height="116" Width="190" Foreground="#FFE45353" />
+                       Content="Label" FontSize="80" HorizontalAlignment="Left" Margin="44,76,0,0"
+                       VerticalAlignment="Top"
+                       FontWeight="DemiBold"
+                       Height="160" Width="272" Foreground="#FFE45353" />
 
             </Grid>
-            <WrapPanel x:Name="wrappanel"  Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" Height="382" Margin="11,10,0,0" VerticalAlignment="Top" Width="400">
-                <TextBlock Text="Họ Tên: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold"
+            <WrapPanel x:Name="wrappanel" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" Height="294"
+                       Margin="11,10,0,0" VerticalAlignment="Top" Width="400" Grid.ColumnSpan="2">
+                <TextBlock Text="Họ Tên: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top"
+                           FontWeight="Bold"
                            Height="36" />
-                <TextBlock x:Name="hotenlb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="302" />
-                <TextBlock Text="Vị Trí: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold"
+                <TextBlock x:Name="hotenlb" TextWrapping="Wrap" Text="unknown" FontSize="20" Width="302" />
+                <TextBlock Text="Vị Trí: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top"
+                           FontWeight="Bold"
                            Height="33" />
-                <TextBlock x:Name="chucvulb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="328"
-                           RenderTransformOrigin="0.5,0.5">
-                </TextBlock>
-                <TextBlock Text="Mã Số: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold"
+                <TextBlock x:Name="chucvulb" TextWrapping="Wrap" Text="unknown" FontSize="20" Width="328"
+                           RenderTransformOrigin="0.5,0.5" />
+                <TextBlock Text="Mã Số: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top"
+                           FontWeight="Bold"
                            Width="68" Height="35" />
-                <TextBlock x:Name="masolb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="316" />
+                <TextBlock x:Name="masolb" TextWrapping="Wrap" Text="unknown" FontSize="20" Width="316" />
                 <TextBlock Text="Số câu hỏi: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top"
                            FontWeight="Bold" Height="40" Width="116" />
-                <TextBlock x:Name="socaulb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="170" />
+                <TextBlock x:Name="socaulb" TextWrapping="Wrap" Text="unknown" FontSize="20" Width="170" />
                 <TextBlock Text="Thời gian cho phép: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top"
                            FontWeight="Bold" Height="38" Width="207" />
-                <TextBlock x:Name="thoigianlb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="125" />
-                <TextBlock Text="Thời gian thực hiện: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top"
+                <TextBlock x:Name="thoigianlb" TextWrapping="Wrap" Text="unknown" FontSize="20" Width="125" />
+                <TextBlock Text="Thời gian thực hiện: " FontSize="20" HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
                            FontWeight="Bold" Height="38" Width="199" />
-                <TextBlock x:Name="thoigianthuchienlb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="108" />
+                <TextBlock x:Name="thoigianthuchienlb" TextWrapping="Wrap" Text="unknown" FontSize="20" Width="108" />
             </WrapPanel>
 
 
+            <StackPanel Grid.Row="2" Grid.ColumnSpan="2" x:Name="stackpanel" HorizontalAlignment="Left" Height="auto"
+                        Margin="6,0,0,0"
+                        VerticalAlignment="Stretch" Width="800" >
+                <TextBlock  TextWrapping="Wrap" Text="             ĐÁP ÁN TRẮC NGHIỆM" Foreground="Red" FontWeight="Bold" FontSize="40" Margin="10,0,0,0" />
 
-            <StackPanel Grid.Row="2" Grid.ColumnSpan="2"  x:Name="stackpanel" HorizontalAlignment="Left" Height="auto" Margin="6,0,0,0"
-                            VerticalAlignment="Stretch" Width="800" />
+
+            </StackPanel>
+
         </Grid>
 
 

@@ -49,6 +49,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bug|AnyCPU'">
+    <OutputPath>bin\Bug\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.Xpf.Core.v20.1" />
     <Reference Include="EPPlus">

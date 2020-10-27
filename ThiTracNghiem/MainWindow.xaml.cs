@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows;
 using DevExpress.Xpf.Core;
+using ThiTracNghiem.Properties;
 
 namespace ThiTracNghiem
 {
@@ -15,6 +16,7 @@ namespace ThiTracNghiem
             lb1.IsEnabled = true;
             ThoiGianLabel.IsEnabled = true;
             lb3.IsEnabled = true;
+            ProjectLabel.Content = Settings.Default.MonThi;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -26,7 +28,8 @@ namespace ThiTracNghiem
                     name = HoTenLabel.Text,
                     MaSo = MaSoLabel.Text,
                     ViTri = ViTriLabel.Text,
-                    SoCauHoi = Convert.ToInt32(SoCauLabel.Text)
+                    SoCauHoi = Convert.ToInt32(SoCauLabel.Text),
+                    monthi = Settings.Default.MonThi
                 };
                 if (checkbox.IsChecked == true) person.ThoiGian = Convert.ToInt32(ThoiGianLabel.Text);
 

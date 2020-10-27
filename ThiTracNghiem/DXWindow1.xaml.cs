@@ -96,7 +96,8 @@ namespace ThiTracNghiem
 
             //this.RemoveVisualChild(this.stackpanel);
             //this.RemoveLogicalChild(this.stackpanel);
-            var report = new ReportWindow {ps = ps};
+            stackpanel.RemoveFromVisualTree();
+            var report = new ReportWindow {ps = ps,ketquaStackPanel = stackpanel};
             NopBaibtn.IsEnabled = false;
 
             IsEnabled = false;
@@ -120,6 +121,7 @@ namespace ThiTracNghiem
                 var end = workSheet.Dimension.End.Row;
                 var row = end + 1;
                 var col = 1;
+                ps.stt = end - start + 1;
                 workSheet.Cells[row, col++].Value = end - start + 1;
                 workSheet.Cells[row, col++].Value = ps.MaSo;
                 workSheet.Cells[row, col++].Value = ps.name;
@@ -134,20 +136,21 @@ namespace ThiTracNghiem
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            // var answer = MessageBox.Show(" Bạn có chắc chắn muốn nộp bài ! \n Hành động này không thể hoàn tác !",
-            //     "THÔNG BÁO", MessageBoxButton.YesNo, MessageBoxImage.Question);
-            // if (answer == MessageBoxResult.Yes)
-            //
-            //     try
-            //     {
-            //         Submit();
-            //         SetData();
-            //     }
-            //     catch (Exception exe)
-            //     {
-            //         MessageBox.Show(exe.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            //         throw;
-            //     }
+            var answer = MessageBox.Show(" Bạn có chắc chắn muốn nộp bài ! \n Hành động này không thể hoàn tác !",
+                "THÔNG BÁO", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (answer == MessageBoxResult.Yes)
+
+                try
+                {
+                    Submit();
+                    SetData();
+                    Close();
+                }
+                catch (Exception exe)
+                {
+                    MessageBox.Show(exe.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    throw;
+                }
 
 
             // StackPanel SPnel = new StackPanel();
@@ -161,28 +164,10 @@ namespace ThiTracNghiem
             // }
 
 
-            Submit();
-            stackpanel.RemoveFromVisualTree();
+            
+           
 
-            var a = new Test {Spanel = stackpanel};
-            a.Show();
-            Close();
-
-
-            // // stackpanel.RemoveFromVisualTree();
-            // StackPanel cStackPanel = new StackPanel();
-            //
-            // List<CauHoi> ctrls = new List<CauHoi>();
-            // // foreach (CauHoi c in stackpanel.Children)
-            // // {
-            // //
-            // //     cStackPanel.Children.Add(c);
-            // //    
-            // // }
-            // //
-            // // // this.stackpanel.Children.Clear();
-            // //  cStackPanel.Children = stackpanel.Children;
-            //
+            
         }
     }
 }

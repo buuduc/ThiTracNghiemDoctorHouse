@@ -18,19 +18,23 @@
         <StackPanel x:Name="AnswerPanel" Height="Auto">
             <RadioButton x:Name="Atext" Width="auto" Height="auto" VerticalAlignment="Stretch"
                          HorizontalAlignment="Stretch" FontSize="20" Margin="10,0,27,0" Checked="RadioCheck">
-                <TextBlock Text="Isolated Storage" Width="auto" Height="auto" TextWrapping="Wrap" FontSize="22" />
+                <TextBlock Text="Isolated Storage" Width="auto" Height="auto" TextWrapping="Wrap" FontSize="22"
+                           Foreground="Black" />
             </RadioButton>
             <RadioButton x:Name="Btext" Width="auto" Height="auto" VerticalAlignment="Stretch"
                          HorizontalAlignment="Stretch" FontSize="20" Margin="10,0,27,0" Checked="RadioCheck">
-                <TextBlock Text="Isolated Storage" Width="auto" Height="auto" TextWrapping="Wrap" FontSize="22" />
+                <TextBlock Text="Isolated Storage" Width="auto" Height="auto" TextWrapping="Wrap" FontSize="22"
+                           Foreground="Black" />
             </RadioButton>
             <RadioButton x:Name="Ctext" Width="auto" Height="auto" VerticalAlignment="Stretch"
                          HorizontalAlignment="Stretch" FontSize="20" Margin="10,0,27,0" Checked="RadioCheck">
-                <TextBlock Text="Isolated Storage" Width="auto" Height="auto" TextWrapping="Wrap" FontSize="22" />
+                <TextBlock Text="Isolated Storage" Width="auto" Height="auto" TextWrapping="Wrap" FontSize="22"
+                           Foreground="Black" />
             </RadioButton>
             <RadioButton x:Name="Dtext" Width="auto" Height="auto" VerticalAlignment="Stretch"
                          HorizontalAlignment="Stretch" FontSize="20" Margin="10,0,27,0" Checked="RadioCheck">
-                <TextBlock Text="Isolated Storage" Width="auto" Height="auto" TextWrapping="Wrap" FontSize="22" />
+                <TextBlock Text="Isolated Storage" Width="auto" Height="auto" TextWrapping="Wrap" FontSize="22 "
+                           Foreground="Black" />
             </RadioButton>
 
         </StackPanel>

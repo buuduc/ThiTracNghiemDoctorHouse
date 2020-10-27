@@ -14,7 +14,7 @@
                RenderTransformOrigin="0.2,3.773" />
         <Label Content="Mã số: " HorizontalAlignment="Left" Margin="12,81,0,0" VerticalAlignment="Top"
                RenderTransformOrigin="0.2,3.773" />
-        <Label Content="Vị trí:" HorizontalAlignment="Left" Margin="12,109,0,0" VerticalAlignment="Top"
+        <Label Content="Vị trí:" HorizontalAlignment="Left" Margin="22,109,0,0" VerticalAlignment="Top"
                RenderTransformOrigin="0.2,3.773" />
         <TextBox x:Name="HoTenLabel" HorizontalAlignment="Left" Height="23" Margin="57,53,0,0" TextWrapping="Wrap"
                  Text="" VerticalAlignment="Top" Width="120" />
@@ -50,6 +50,11 @@
         <CheckBox x:Name="checkbox" Content="Tính thời gian làm bài" Grid.Column="1" HorizontalAlignment="Left"
                   Margin="10,82,0,0" VerticalAlignment="Top" Checked="CheckBoxChanged" Unchecked="CheckBoxChanged"
                   IsChecked="True" />
+        <Label Content="Project :" HorizontalAlignment="Left" Margin="6,139,0,0" VerticalAlignment="Top"
+               RenderTransformOrigin="0.2,3.773" />
+        <Label x:Name="ProjectLabel" Content="" HorizontalAlignment="Left" Foreground="OrangeRed" Margin="57,139,0,0"
+               VerticalAlignment="Top"
+               RenderTransformOrigin="0.2,3.773" Width="120" />
 
 
     </Grid>

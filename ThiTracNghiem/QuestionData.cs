@@ -4,7 +4,7 @@ namespace ThiTracNghiem
 {
     internal class QuestionData
     {
-        private  VanPhongDataSet dataSet;
+        private readonly VanPhongDataSet dataSet;
 
         public QuestionData(VanPhongDataSet dataSet)
         {

@@ -6,19 +6,26 @@
         xmlns:local="clr-namespace:ThiTracNghiem"
         mc:Ignorable="d"
         Loaded="ReportWindow_OnLoaded"
-        Title="ReportWindow" Height="447" Width="482" ResizeMode="NoResize">
-    <WrapPanel x:Name="wrappanel" HorizontalAlignment="Left" Height="437" Margin="10,10,-6,-29" VerticalAlignment="Top"
+        Title="ReportWindow" Height="515.023" Width="472.508" ResizeMode="NoResize">
+    <WrapPanel x:Name="wrappanel" HorizontalAlignment="Left" Height="461" Margin="10,10,-6,-53" VerticalAlignment="Top"
                Width="472">
-        <TextBlock Text="             KẾT QUẢ BÀI THI " FontSize="30" HorizontalAlignment="Left"
-                   VerticalAlignment="Top" FontWeight="Bold" Width="789" Height="54" />
+        <Grid Height="74" Width="465">
+            <Image Source="header.png" Stretch="Fill" Margin="0,0,10,0" />
+            <Label x:Name="STT" Content="000" HorizontalAlignment="Left" Foreground="Black" Margin="358,19,0,0"
+                   VerticalAlignment="Top" FontWeight="Bold"
+                   RenderTransformOrigin="0.2,3.773" Width="88" Height="19" />
+            <TextBlock x:Name="ProjectLabel" Text="TIN HOC VAN PHONG" HorizontalAlignment="Left" Foreground="Black" FontWeight="Bold"
+                   Margin="376,38,0,0" VerticalAlignment="Top" TextWrapping="Wrap"
+                   RenderTransformOrigin="0.2,3.773" Width="70" Height="31" FontSize="10"/>
+
+        </Grid>
         <TextBlock Text="Họ Tên: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold"
                    Height="36" />
         <TextBlock x:Name="hotenlb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="375" />
         <TextBlock Text="Vị Trí: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold"
                    Height="33" />
         <TextBlock x:Name="chucvulb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="400"
-                   RenderTransformOrigin="0.5,0.5">
-        </TextBlock>
+                   RenderTransformOrigin="0.5,0.5" />
         <TextBlock Text="Mã Số: " FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold"
                    Width="68" Height="35" />
         <TextBlock x:Name="masolb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="368" />
@@ -32,8 +39,8 @@
                    FontWeight="Bold" Height="38" Width="199" />
         <TextBlock x:Name="thoigianthuchienlb" TextWrapping="Wrap" Text="TextBlock" FontSize="20" Width="258" />
         <Grid Width="456" Height="122">
-            <Button x:Name="exitbtn" Content="EXIT" FontSize="20" HorizontalAlignment="Left" Height="40"
-                    Margin="310,78,0,0" VerticalAlignment="Top" Width="136" Click="Button_Click_1" />
+            <Button x:Name="exitbtn" Content="XEM PHIẾU" FontSize="20" HorizontalAlignment="Left" Height="40"
+                    Margin="310,37,0,0" VerticalAlignment="Top" Width="136" Click="Button_Click_1" RenderTransformOrigin="0.603,0.038" />
             <Rectangle Fill="#FFF7F7ED" HorizontalAlignment="Left" Height="71" Margin="115,47,0,0" Stroke="Black"
                        VerticalAlignment="Top" Width="178" />
             <TextBlock Text="" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold"
@@ -44,8 +51,8 @@
             <Label x:Name="DiemSoLb" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
                    Content="Label" FontSize="50" HorizontalAlignment="Left" Margin="115,47,0,0" VerticalAlignment="Top"
                    Height="71" Width="178" Foreground="#FFE45353" />
-            <Button x:Name="XuatPdfbtn" Content="XUẤT PDF" FontSize="20" HorizontalAlignment="Left" Height="40"
-                    Margin="310,33,0,0" VerticalAlignment="Top" Width="136" Click="Button_Click_2" />
+            <Button x:Name="XuatPdfbtn" Content="PRINT" FontSize="20" HorizontalAlignment="Left" Height="40"
+                    Margin="310,82,0,0" VerticalAlignment="Top" Width="136" Click="Button_Click_2" />
         </Grid>
 
     </WrapPanel>

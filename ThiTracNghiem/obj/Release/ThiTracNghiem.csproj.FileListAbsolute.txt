@@ -519,3 +519,4 @@ D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Release\ThiTracNghiem.exe
 D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Release\ThiTracNghiem.pdb
 D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Release\ReportWindow.xaml.cs
 D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Release\Test.xaml.cs
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Release\ThiTracNghiem.csprojAssemblyReference.cache

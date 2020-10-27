@@ -2,17 +2,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using ThiTracNghiem.VanPhongDataSetTableAdapters;
 
 namespace ThiTracNghiem
 {
-    internal class Person
+    internal  class Person
     {
         public SortedList listQuestion = new SortedList();
         public List<bool> ListResult = new List<bool>();
         public string MaSo;
+        public string monthi;
         public string name;
         public int SoCauHoi;
+        public int stt; // stt được lưu trên file excel
         public int ThoiGian;
         public double TimeUsed;
         public string ViTri;
@@ -30,8 +33,18 @@ namespace ThiTracNghiem
             return STTCauHoi;
         }
 
+        private void FixField()
+        {
+            MaSo = MaSo == "" ? "unknown" : MaSo;
+            name = name == "" ? "unknown" : name;
+            monthi = monthi == "" ? "unknown" : monthi;
+            SoCauHoi = SoCauHoi == null ? 0 : SoCauHoi;
+            ViTri = ViTri == "" ? "unknown" : ViTri;
+            ThoiGian = ThoiGian == null ? 0 : ThoiGian;
+        }
         public void NapData(string password)
         {
+            FixField();
             var vanPhongDataSet = new VanPhongDataSet();
             var vanPhongDataSetDatabaseTableAdapter = new DatabaseTableAdapter();
             vanPhongDataSetDatabaseTableAdapter.Connection.ConnectionString +=
