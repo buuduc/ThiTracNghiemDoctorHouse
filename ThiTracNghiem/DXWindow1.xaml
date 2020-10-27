@@ -10,7 +10,7 @@
                       VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Auto">
 
 
-            <StackPanel x:Name="stackpanel" HorizontalAlignment="Stretch" Width="auto" Height="auto"
+            <StackPanel x:Name="stackpanel" HorizontalAlignment="Stretch" Width="1200" Height="auto"
                         VerticalAlignment="Stretch" />
 
 

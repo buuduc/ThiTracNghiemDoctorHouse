@@ -25,9 +25,10 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>2.0.1.1</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -52,13 +53,30 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bug|AnyCPU'">
     <OutputPath>bin\Bug\</OutputPath>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Lgp85-Magic-Christmas-My-Documents.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0EEEBE7AC29FFD7C08C8174D243826539C7B0BF5</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ThiTracNghiem_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.Xpf.Core.v20.1" />
     <Reference Include="EPPlus">
       <HintPath>..\..\ChamCongTuan\ChamCongTuan\bin\Release\EPPlus.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -153,6 +171,7 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
+    <None Include="ThiTracNghiem_TemporaryKey.pfx" />
     <None Include="VanPhongDataSet.xsc">
       <DependentUpon>VanPhongDataSet.xsd</DependentUpon>
     </None>
@@ -184,6 +203,7 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="header.png" />
+    <Resource Include="Lgp85-Magic-Christmas-My-Documents.ico" />
     <Content Include="VanPhong.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

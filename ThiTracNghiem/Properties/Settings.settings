@@ -2,7 +2,7 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ThiTracNghiem.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="PathOfReportExcel" Type="System.String" Scope="Application">
+    <Setting Name="PathOfReportExcel" Type="System.String" Scope="User">
       <Value Profile="(Default)">D:\TEMP\Score.xlsx</Value>
     </Setting>
     <Setting Name="MonThi" Type="System.String" Scope="User">

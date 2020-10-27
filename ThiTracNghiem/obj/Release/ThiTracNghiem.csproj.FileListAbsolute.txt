@@ -520,3 +520,7 @@ D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Release\ThiTracNghiem.pdb
 D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Release\ReportWindow.xaml.cs
 D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Release\Test.xaml.cs
 D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Release\ThiTracNghiem.csprojAssemblyReference.cache
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Release\ThiTracNghiem.exe.manifest
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\bin\Release\ThiTracNghiem.application
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Release\ThiTracNghiem.exe.manifest
+D:\GitHub\ThiTracNghiem\ThiTracNghiem\obj\Release\ThiTracNghiem.application

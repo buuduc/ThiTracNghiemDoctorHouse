@@ -23,12 +23,15 @@ namespace ThiTracNghiem.Properties {
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("D:\\TEMP\\Score.xlsx")]
         public string PathOfReportExcel {
             get {
                 return ((string)(this["PathOfReportExcel"]));
+            }
+            set {
+                this["PathOfReportExcel"] = value;
             }
         }
         

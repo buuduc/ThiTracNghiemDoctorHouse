@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="ThiTracNghiem.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+      <section name="DXThemeManager" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="ThiTracNghiem.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <connectionStrings>
+    <add name="ThiTracNghiem.Properties.Settings.VanPhongConnectionString" connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\VanPhong.mdb" providerName="System.Data.OleDb" />
+  </connectionStrings>
+  <appSettings>
+    <!--The license context used-->
+    <add key="EPPlus:ExcelPackage.LicenseContext" value="NonCommercial" />
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+  </appSettings>
+  <userSettings>
+    <ThiTracNghiem.Properties.Settings>
+      <setting name="MonThi" serializeAs="String">
+        <value>Thi Trắc nghiệm</value>
+      </setting>
+      <setting name="XemDapAn" serializeAs="String">
+        <value>True</value>
+      </setting>
+    </ThiTracNghiem.Properties.Settings>
+    <DXThemeManager>
+      <setting name="ApplicationThemeName" serializeAs="String">
+        <value>DXStyle</value>
+      </setting>
+    </DXThemeManager>
+  </userSettings>
+  <applicationSettings>
+    <ThiTracNghiem.Properties.Settings>
+      <setting name="PathOfReportExcel" serializeAs="String">
+        <value>D:\TEMP\Score.xlsx</value>
+      </setting>
+    </ThiTracNghiem.Properties.Settings>
+  </applicationSettings>
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" />
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400" />
+      </providers>
+    </roleManager>
+  </system.web>
+</configuration>

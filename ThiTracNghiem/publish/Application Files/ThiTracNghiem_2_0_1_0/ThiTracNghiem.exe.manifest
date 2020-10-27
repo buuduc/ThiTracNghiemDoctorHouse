@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ThiTracNghiem.exe" version="2.0.1.0" publicKeyToken="a8d3c1ee5f969721" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Lgp85-Magic-Christmas-My-Documents.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ThiTracNghiem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ThiTracNghiem.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.Data.Desktop.v20.1.dll" size="401688">
+      <assemblyIdentity name="DevExpress.Data.Desktop.v20.1" version="20.1.7.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2U6+4JfOeV420hj0+9+vtu6sxOBcOIjyDudfEWMNcQI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.Data.v20.1.dll" size="6349592">
+      <assemblyIdentity name="DevExpress.Data.v20.1" version="20.1.7.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Zq0DT0+20oPz6i9LscwkkT/GksOysHMNLBMqfXIPSxk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\DevExpress.Data.v20.1.resources.dll" size="176408">
+      <assemblyIdentity name="DevExpress.Data.v20.1.resources" version="20.1.0.0" publicKeyToken="B88D1754D700E49A" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HCBM0hggoB2XO/IAIBic09KKNKqYvQifY/WuND9Au3Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es\DevExpress.Data.v20.1.resources.dll" size="171800">
+      <assemblyIdentity name="DevExpress.Data.v20.1.resources" version="20.1.0.0" publicKeyToken="B88D1754D700E49A" language="es" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1itAwDuTsFcLIdC4O+85ylrddR1yErJPBYKLBbkqSDE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ja\DevExpress.Data.v20.1.resources.dll" size="176408">
+      <assemblyIdentity name="DevExpress.Data.v20.1.resources" version="20.1.0.0" publicKeyToken="B88D1754D700E49A" language="ja" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>x/rkkA/ax/uaaJC2/qh6YmfHfxOFlZ+LWgxc5b6PC8g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.Data.v20.1.resources.dll" size="193304">
+      <assemblyIdentity name="DevExpress.Data.v20.1.resources" version="20.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lFVoCx+QW9cZMwkfU8LpDPCYLeVBy07exNEkXcABnrI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.Mvvm.v20.1.dll" size="697112">
+      <assemblyIdentity name="DevExpress.Mvvm.v20.1" version="20.1.7.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CRBPiNjp4dbp7WXol0tlHhMK/kkHgWX3+w1dMUBJiks=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.Pdf.v20.1.Core.dll" size="3683096">
+      <assemblyIdentity name="DevExpress.Pdf.v20.1.Core" version="20.1.7.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LOvvNCeopPO0bF6rHAA2SWCR4MmxmIeWoc9dq1s+OR0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\DevExpress.Pdf.v20.1.Core.resources.dll" size="15640">
+      <assemblyIdentity name="DevExpress.Pdf.v20.1.Core.resources" version="20.1.0.0" publicKeyToken="B88D1754D700E49A" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1tFpNnBNf1LH0BHnRQBCeFQH93mxsOoiT7sGNL1kCw4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es\DevExpress.Pdf.v20.1.Core.resources.dll" size="21272">
+      <assemblyIdentity name="DevExpress.Pdf.v20.1.Core.resources" version="20.1.0.0" publicKeyToken="B88D1754D700E49A" language="es" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2/jkZSGc6/8Gw/UdE/YSo9lcdGMaq6r5bAWPYKwEkbQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ja\DevExpress.Pdf.v20.1.Core.resources.dll" size="11544">
+      <assemblyIdentity name="DevExpress.Pdf.v20.1.Core.resources" version="20.1.0.0" publicKeyToken="B88D1754D700E49A" language="ja" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hecQoGB6FGkJl56vANZJiCmoCjrHEGFH5LIcbGJWXfc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.Pdf.v20.1.Core.resources.dll" size="27416">
+      <assemblyIdentity name="DevExpress.Pdf.v20.1.Core.resources" version="20.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HSAibaulA6TZxWQuZ0YcT3/2YsEWbUvcaV1hVlIJHUI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.Pdf.v20.1.Drawing.dll" size="394008">
+      <assemblyIdentity name="DevExpress.Pdf.v20.1.Drawing" version="20.1.7.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8DtCTvdbvJreegzKqJW4NAoVPILOegDklTMd6M+d2dY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.Printing.v20.1.Core.dll" size="4332312">
+      <assemblyIdentity name="DevExpress.Printing.v20.1.Core" version="20.1.7.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>XEPfXnXpU+H7q9mFhJPTmI8exhrNL55Wg+MCrj279Iw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\DevExpress.Printing.v20.1.Core.resources.dll" size="78104">
+      <assemblyIdentity name="DevExpress.Printing.v20.1.Core.resources" version="20.1.0.0" publicKeyToken="B88D1754D700E49A" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GW46qVm0B0LFDCeeuFRGwTYTMBMBwx8DteOQ87d73EA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es\DevExpress.Printing.v20.1.Core.resources.dll" size="80664">
+      <assemblyIdentity name="DevExpress.Printing.v20.1.Core.resources" version="20.1.0.0" publicKeyToken="B88D1754D700E49A" language="es" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tGP1zdUMrvDUPlMBB7HJCeVMpOCzU0uGecQHCgSdrWs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ja\DevExpress.Printing.v20.1.Core.resources.dll" size="73496">
+      <assemblyIdentity name="DevExpress.Printing.v20.1.Core.resources" version="20.1.0.0" publicKeyToken="B88D1754D700E49A" language="ja" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dQXJevJ0uqHgJGuwajKH1gg5oGls/SdVUgXztv9dMLk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.Printing.v20.1.Core.resources.dll" size="84248">
+      <assemblyIdentity name="DevExpress.Printing.v20.1.Core.resources" version="20.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cYWAF7K0/cyxnJTC11CeQVIXb63BzhobhPypIu1CpFk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.Xpf.Core.v20.1.dll" size="11154712">
+      <assemblyIdentity name="DevExpress.Xpf.Core.v20.1" version="20.1.7.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3X7oM0Vyxb8EU0psENkz3V9g+22LqxyCPOA5Je4hnMg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\DevExpress.Xpf.Core.v20.1.resources.dll" size="148248">
+      <assemblyIdentity name="DevExpress.Xpf.Core.v20.1.resources" version="20.1.0.0" publicKeyToken="B88D1754D700E49A" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LgQ4c/TWA7QzqHv5TqeZTlOpNCrAues/pQSRJnaQksc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es\DevExpress.Xpf.Core.v20.1.resources.dll" size="136472">
+      <assemblyIdentity name="DevExpress.Xpf.Core.v20.1.resources" version="20.1.0.0" publicKeyToken="B88D1754D700E49A" language="es" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Klag3exWKlF9w3ZLwcz969HwJaDXRWH8Jzpvt/VtT1A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ja\DevExpress.Xpf.Core.v20.1.resources.dll" size="136472">
+      <assemblyIdentity name="DevExpress.Xpf.Core.v20.1.resources" version="20.1.0.0" publicKeyToken="B88D1754D700E49A" language="ja" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ymvdXpCX/y52yKyrLOuou4YqpAR9pR8fLOcm+kICJLE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.Xpf.Core.v20.1.resources.dll" size="152344">
+      <assemblyIdentity name="DevExpress.Xpf.Core.v20.1.resources" version="20.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sHXsw2ORY/z+gw1TbBY7PBWXB7rsCuiJ2TDcmcxw/2s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EPPlus.dll" size="2193408">
+      <assemblyIdentity name="EPPlus" version="5.3.1.0" publicKeyToken="EA159FDAA78159A1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MPeTlDMuRm1WKR98XixTsHZADY2tn4rvnAolX3WZ0ec=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ThiTracNghiem.exe" size="607680">
+      <assemblyIdentity name="ThiTracNghiem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J1nn2qfbq8B0B6oyLl+fpNbeVQ75ODEvl7SBIHz/tos=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Lgp85-Magic-Christmas-My-Documents.ico" size="232604">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XNjlfa5PwyFrTYlZTpmPNn91bOWWaFIKbyx3VxeKtpM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ThiTracNghiem.exe.config" size="3182">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WmSE6OMs7YDF2c85fNh/PSpgNWl5kgQ2rd0S+jwF3VM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="VanPhong.mdb" size="303104" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OjZRdZcl1sSrujLcukggcX4i6dGjMqGWOqE8INXK6C8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DUCNGUYEN\Admin" issuerKeyHash="beeeac11109223c7e312a5bcc22c74f5c4e1477a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tQLLi+w2LTlJe745i7YNr+AgeKfT+isJzjtHWm42DM4=</DigestValue></Reference></SignedInfo><SignatureValue>STYSmf+fJAE2wUf3Oidfk+zrXLqwi+8VOwn43DRHov5aPuxzvlg8Dp3bGYL/teDIK2WhPm3nSIwR7VvWFwh/gTUnMgYwx5E9jFI/ug1lgCeH5KbFP9IzypORYKj+lHR1IXEkqaBo1FvTQ9MI1KKGvWLnCA/KOQlYWKxVcNi02x8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rHDtukrOgOSfC3NmwVmPs2Tc3M7MwxPAE9VxSjJawLhkmf2M9p0iKsrbJ83GDeImOngUutHTeU80xyG51BNl8JTZOOXyKu6Ks5QekuNtC2p2VTGbh291dfFMpqUj3T2t04ElgTCAmjuD4yCkdEocwMH47UN7+ktXYHUaqcXrLVk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ce0c366e5a473bce092bfad3a77820e0af0db68b39be7b49392d36ec8bcb02b5" Description="" Url=""><as:assemblyIdentity name="ThiTracNghiem.exe" version="2.0.1.0" publicKeyToken="a8d3c1ee5f969721" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DUCNGUYEN\Admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>d0eODAd1O9lKEsBpNzWZE2hXBVJWnuEh63IzWPrHyIk=</DigestValue></Reference></SignedInfo><SignatureValue>hzoGu3b+FJnFkrnwop5BuTZQCxBc5bk/X5y77EN/HXQLvXmqtqHVN5E3epAi8p0tWV2oUotpa4u0FtnFzBFplko7hS+5Bg1O0Ew60yGYAA3Nvy+awNCJVtUyEINmXjr6k/dJKrVB7Xe16W4IKQvzjUp95tL5uIJq9uigfi+iSsk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rHDtukrOgOSfC3NmwVmPs2Tc3M7MwxPAE9VxSjJawLhkmf2M9p0iKsrbJ83GDeImOngUutHTeU80xyG51BNl8JTZOOXyKu6Ks5QekuNtC2p2VTGbh291dfFMpqUj3T2t04ElgTCAmjuD4yCkdEocwMH47UN7+ktXYHUaqcXrLVk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQH7b/dlxDgLpP7X3QD31HQzANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4ARABVAEMATgBHAFUAWQBFAE4AXABBAGQAbQBpAG4wHhcNMjAxMDI3MTIyMDQ1WhcNMjExMDI3MTgyMDQ1WjApMScwJQYDVQQDHh4ARABVAEMATgBHAFUAWQBFAE4AXABBAGQAbQBpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKxw7bpKzoDknwtzZsFZj7Nk3NzOzMMTwBPVcUoyWsC4ZJn9jPadIirK2yfNxg3iJjp4FLrR03lPNMchudQTZfCU2Tjl8iruirOUHpLjbQtqdlUxm4dvdXXxTKalI909rdOBJYEwgJo7g+MgpHRKHMDB+O1De/pLV2B1GqnF6y1ZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAoX2pLcf8PT66FtFy39ddZX1QKwEtiTxcn+IXCQtCjryB+tQQetRlloO8n/V8v/XNjVg0Px36jBf4Yqmvx+bwKPNSEA/B54+QZX9uPtIFGxK3RU+H/BJfPeaxpfiMpTCMgBSYjg5ypxGAbu5EDq9NgCnFBIrleqjAFZB7yGhzrNA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
